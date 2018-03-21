@@ -1,0 +1,58 @@
+#define LABLINE 3
+#define ENDLAB 4
+
+task lab(){
+                //jobbra tart, ha falat talal tolat es balra fordul.
+        int a=0;
+        while(Sensor(IN_2)!=ENDLAB){
+            if(a<6){
+            OnFwd(OUT_A, -35);    //bal kerek gyorsabb a jobbnál, jobbra tart a kocsi
+            OnFwd(OUT_C, -20);
+            Wait(200);
+            }
+            else{
+            OnFwd(OUT_A, -30);    //bal kerek gyorsabb a jobbnál, jobbra tart a kocsi
+            OnFwd(OUT_C, 0);
+            Wait(50);
+            }
+            if(Sensor(IN_2)==LABLINE){
+               OnFwd(OUT_AC, 40);    //kicsit hatramegy
+               Wait(100);
+               for(int i=0; i<5 && Sensor(IN_2)!=LABLINE; i++)  {
+                       OnFwd(OUT_AC, 40);    //kicsit hatramegy
+                       Wait(50);
+               }
+               OnFwd(OUT_A, 40);  //   Balra fordul
+               OnFwd(OUT_C, -40);  //       picit, elojelek nem biztos, hogy stimmelnek
+               Wait(150);
+               for(int i=0; i<3 && Sensor(IN_2)!=LABLINE; i++)  {
+                       OnFwd(OUT_A, 40);  //   Balra fordul
+                       OnFwd(OUT_C, -40);  //       picit, elojelek nem biztos, hogy stimmelnek
+                       Wait(50);
+               }
+               if(Sensor(IN_2)==LABLINE) {
+                        //OnFwd(OUT_AC, 40);    //kicsit hatramegy
+                        //Wait(300);
+                         OnFwd(OUT_AC, 40);    //kicsit hatramegy
+                         Wait(100);
+                         for(int i=0; i<5 && Sensor(IN_2)!=LABLINE; i++)  {
+                         OnFwd(OUT_AC, 40);    //kicsit hatramegy
+                         Wait(50);
+                         }
+               }
+               a=0;
+
+            }
+            else
+                a++;
+        }
+        OnFwd(OUT_AC, -40);
+        Wait(400);
+        Release(semaphor);
+        ExitTo(searchspace);
+}
+
+task main(){
+SetSensorColorFull(IN_2);
+Precedes(lab);
+}

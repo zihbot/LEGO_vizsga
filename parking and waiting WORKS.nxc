@@ -1,0 +1,146 @@
+
+mutex semaphor;
+int parkingSpace = 0;
+bool searching = true;
+bool check = false;
+
+#define WALL 10
+#define PARKINGWALLD 5
+#define LINE 1
+#define CROSS 4
+#define PARKINGWAITTIME 5000
+
+task checksensor(){
+while(searching){
+int a = 2;
+int j;
+if(Sensor(IN_2) != LINE){
+Acquire(semaphor);
+while(Sensor(IN_2) != LINE){
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(70);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          OnFwd(OUT_A, 20);
+          OnFwd(OUT_C, -20);
+          Wait(70);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          OnFwd(OUT_C, -20);
+          OnFwd(OUT_A, 20);
+          Wait(70);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(70);
+    }
+    a++;
+}
+Release(semaphor);
+}
+}
+}
+
+task move(){
+start checksensor;
+while(searching){
+    Acquire(semaphor);
+    ResetTachoCount(OUT_AC);
+    OnFwd(OUT_AC, -40);
+    Wait(100);
+    parkingSpace -= MotorTachoCount(OUT_A);
+    Release(semaphor);
+}
+}
+
+
+
+
+sub Left(int j){
+    for(int i = 0; i <= j; i++){
+    OnFwd(OUT_A, 20);
+    OnFwd(OUT_C, -20);
+    Wait(50);
+    }
+}
+sub Right(int j){
+    for(int i = 0; i <= j; i++){
+    OnFwd(OUT_A, -20);
+    OnFwd(OUT_C, 20);
+    Wait(50);
+    }
+}
+
+sub parking(){
+    RotateMotor(OUT_C, -30, 95);
+    RotateMotor(OUT_A, -30, -95);
+    while(Sensor(IN_4)!=1){
+        OnRev(OUT_AC, -30);
+        /*if(SensorUS(IN_1) < PARKINGWALLD){
+            OnRev(OUT_A, -40);
+        } else if(SensorUS(IN_1) > PARKINGWALLD){
+            OnRev(OUT_C, -40);
+        }      */
+        Wait(50);
+    }
+    OnFwd(OUT_AC, 0);
+    Wait(PARKINGWAITTIME);
+}
+
+sub Rev(int t){
+    ResetTachoCount(OUT_AC);
+    int avg;
+    NumOut(0, LCD_LINE3, t/2, FALSE);
+    do {
+        ResetTachoCount(OUT_AC);
+        NumOut(0, LCD_LINE2, avg, FALSE);
+        OnRev(OUT_AC, -40);
+        Wait(50);
+        avg += (MotorTachoCount(OUT_A)+MotorTachoCount(OUT_C))/2;
+    } while(avg<=t/3);
+    parking();
+}
+
+task exiting(){
+     while(Sensor(IN_2) != LINE){
+        OnFwd(OUT_AC, -40);
+        Wait(100);
+     }
+     OnFwd(OUT_AC, -40);
+     Wait(500);
+     while(Sensor(IN_2)!=LINE)
+         Right(1);
+     searching = true;
+     ExitTo(move);
+}
+
+task searchspace(){
+while(true){
+   parkingSpace = 0;
+   if(SensorUS(IN_1) >= WALL){
+      while(SensorUS(IN_1) >= WALL){
+          NumOut(0, LCD_LINE1, parkingSpace, FALSE);
+      }
+      if(parkingSpace > 25*25.2){
+          searching = false;
+          Rev(parkingSpace);
+          ExitTo(exiting);
+      }
+   }
+   Wait(50);
+   
+}
+}
+
+
+task main(){
+   SetSensorTouch(IN_4);
+   SetSensorLowspeed(IN_1);
+   SetSensorColorFull(IN_2);
+   Precedes(searchspace, move);//, checksensor);
+}
+
+

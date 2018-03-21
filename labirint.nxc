@@ -1,0 +1,75 @@
+mutex semaphor;
+
+task move(){
+while(true){
+    Acquire(semaphor);
+    OnFwd(OUT_AC, -20);
+    Wait(100);
+    Release(semaphor);
+}
+}
+
+
+#define LABLINE 3
+task labirinth(){
+while(true){
+int a = 4;
+int j, i;
+int tr=0;
+if(Sensor(IN_2) == LABLINE){
+	Acquire(semaphor);
+  for(i=0; Sensor(IN_2) != LABLINE && i<=3; i++){
+	OnRev(OUT_AC, -30);
+	Wait(300);
+	}
+	//Release(semaphor);
+	for(j = 0; Sensor(IN_2) != LABLINE && j <= a && tr==0; j++){
+	        OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(100);
+          if(Sensor(IN_2) == LABLINE){
+		                     for(i = 0; i <= j; i++){
+	  		                  OnFwd(OUT_A, 20);
+          	              OnFwd(OUT_C, -20);
+		                      Wait(100);
+                         }
+		                     for(i = 0; Sensor(IN_2) != LABLINE && i <= j; i++){
+	  		                  OnFwd(OUT_A, 20);
+          	              OnFwd(OUT_C, -20);
+		                      Wait(100);
+                         }
+          tr=1;
+		      //Release(semaphor);
+		      }
+
+	}
+	Release(semaphor);
+/*	for(i = 0; Sensor(IN_2) != LABLINE && i <= 2*a; i++){
+	  		                  OnFwd(OUT_A, -20);
+          	              OnFwd(OUT_C, 20);
+		                      Wait(100);
+                         } */
+
+	/*for(j = 0; Sensor(IN_2) != LABLINE && j <= a && tr==0; j++){
+	        OnFwd(OUT_A, 20);
+          OnFwd(OUT_C, -20);
+          Wait(100);
+          if(Sensor(IN_2) == LABLINE){
+		                      for(j = 0; Sensor(IN_2) != LABLINE && j <= 2*a; j++){
+	  		                  OnFwd(OUT_A, -20);
+          		            OnFwd(OUT_C, 20);
+			                    Wait(100);
+		                     }
+          tr=1;
+		      Release(semaphor);
+		      }
+	} */
+
+}
+}
+}
+
+task main(){
+SetSensorColorFull(IN_2);
+Precedes(move, labirinth);
+}

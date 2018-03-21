@@ -1,0 +1,1762 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001searchspace	6	1	0	4	6
+1	__float_stack_003searchMaze	10	1	4	4	2
+2	__RLSBmutex0	9	0	8	4	4
+3	semaphor	9	0	12	4	8
+4	__signed_stack_001searchMaze	6	1	16	4	4
+5	__signed_stack_001Right	6	1	20	4	2
+6	__signed_stack_003searchMaze	6	1	24	4	2
+7	__signed_stack_002searchMaze	6	1	28	4	2
+8	__D0SetSensorLowspeed_inline_main	6	1	32	4	4
+9	__D0searchMaze	6	1	36	4	11
+10	__DF0searchMaze	10	1	40	4	2
+11	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	44	4	2
+12	__D0Right	6	1	48	4	8
+13	__D0searchspace	6	1	52	4	18
+14	__DF0searchspace	10	1	56	4	2
+15	__Wait_7qG2_ms_7qG2_000_inline_checksensor	5	1	60	4	10
+16	__rotate_theAngle2	5	1	64	4	2
+17	__signed_stack_001move	6	1	68	4	2
+18	__signed_stack_001lab	6	1	72	4	20
+19	__signed_stack_001moveAfterBox	6	1	76	4	10
+20	__CLSRMutex2	9	0	80	4	2
+21	__signed_stack_001checksensor	6	1	84	4	30
+22	__DU0SetSensorLowspeed_inline_main	5	1	88	4	10
+23	__TextOutMutex	9	0	92	4	2
+24	__signed_stack_001exiting	6	1	96	4	4
+25	__CLSWMutex2	9	0	100	4	2
+26	__CLSWMutex0	9	0	104	4	2
+27	__signed_stack_001Rev	6	1	108	4	6
+28	__CLSCSMutex0	9	0	112	4	2
+29	__signed_stack_002Rev	6	1	116	4	2
+30	__CLSCSMutex2	9	0	120	4	2
+31	__signed_stack_002moveAfterBox	6	1	124	4	2
+32	__CLSRMutex0	9	0	128	4	2
+33	__signed_stack_001parking	6	1	132	4	6
+34	__rotate_theAngle0	5	1	136	4	2
+35	__DU0move	5	1	140	4	2
+36	__Wait_7qG2_ms_7qG2_000_inline_parking	5	1	144	4	4
+37	__constValf25P2	10	0	148	4	1
+38	__rotate_angle2	6	1	152	4	5
+39	__Wait_7qG2_ms_7qG2_000_inline_lab	5	1	156	4	18
+40	__Wait_7qG2_ms_7qG2_000_inline_exiting	5	1	160	4	4
+41	__Wait_7qG2_ms_7qG2_000_inline_searchspace	5	1	164	4	2
+42	__Wait_7qG2_ms_7qG2_000_inline_Rev	5	1	168	4	2
+43	__D0lab	6	1	172	4	66
+44	__D0move	6	1	176	4	10
+45	__D0exiting	6	1	180	4	12
+46	__RLSBmutex2	9	0	184	4	2
+47	__OnRevMutex	9	0	188	4	4
+48	__Wait_7qG2_ms_7qG2_000_inline_searchMaze	5	1	192	4	4
+49	__D0checksensor	6	1	196	4	82
+50	__Wait_7qG2_ms_7qG2_000_inline_moveAfterBox	5	1	200	4	2
+51	__DU0checksensor	5	1	204	4	2
+52	__rotate_angle0	6	1	208	4	5
+53	__D0Rev	6	1	212	4	14
+54	__D0parking	6	1	216	4	12
+55	__D0moveAfterBox	6	1	220	4	26
+56	__Wait_7qG2_ms_7qG2_000_inline_Right	5	1	224	4	2
+57	__lab_7qG2_i_7qG2_003	4	1	228	2	8
+58	__lab_7qG2_a_7qG2_000	4	1	230	2	5
+59	__lab_7qG2_i_7qG2_004	4	1	232	2	4
+60	__rotate_RotCount2	4	1	234	2	4
+61	__Right_7qG2_i_7qG2_001	4	1	236	2	4
+62	__checksensor_7qG2_j_7qG2_001	4	1	238	2	16
+63	__moveAfterBox_7qG2_v_7qG2_000	4	1	240	2	6
+64	__Right_7qG2_j_7qG2_000	4	1	242	2	2
+65	__rotate_OldRotCount2	4	1	244	2	2
+66	__checksensor_7qG2_a_7qG2_001	4	1	246	2	7
+67	__rotate_OldRotCount0	4	1	248	2	2
+68	__Rev_7qG2_avg_7qG2_000	4	1	250	2	3
+69	__constVal630	4	0	252	2	1
+70	parkingSpace	4	1	254	2	9
+71	__Rev_7qG2_t_7qG2_000	4	1	256	2	2
+72	__rotate_RotCount0	4	1	258	2	4
+73	__Rev_return	1	1	260	1	3
+74	__constValNeg40	2	0	261	1	6
+75	__constValNeg30	2	0	262	1	4
+76	__constValNeg95	2	0	263	1	1
+77	____initialize_global_data_return	1	1	264	1	3
+78	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	265	1	4
+79	__constValNeg35	2	0	266	1	1
+80	__constValNeg60	2	0	267	1	1
+81	__parking_return	1	1	268	1	3
+82	__constVal96	2	0	269	1	34
+83	__constVal63	2	0	270	1	32
+84	searching	1	0	271	1	4
+85	__constValNeg25	2	0	272	1	1
+86	__constValNeg50	2	0	273	1	1
+87	__Right_return	1	1	274	1	3
+88	__constValNeg20	2	0	275	1	6
+89	__checksensor_Spawner_return	1	1	276	1	2
+90	__constVal15	2	0	277	1	6
+91	__rotate_theUF2	1	1	278	1	6
+92	__rotate_turnpct2	2	1	279	1	3
+93	__rotate_theRM2	1	1	280	1	4
+94	__rotate_theOM2	1	1	281	1	7
+95	__rotate_stop2	1	1	282	1	2
+96	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	283	1	4
+97	__rotate_power2	1	1	284	1	4
+98	__rotate_sync2	1	1	285	1	2
+99	__rotate_firstPort2	1	1	286	1	5
+100	__rotate_theTurnPct2	2	1	287	1	4
+101	__rotate_thePower2	2	1	288	1	4
+102	____RotateMotor0_sign_tmp	2	1	289	1	4
+103	____RotateMotor0_return	1	1	290	1	3
+104	__rotate_rs2	1	1	291	1	2
+105	__rotate_theRVP2	1	1	292	1	2
+106	__rotate_theRS2	1	1	293	1	3
+107	__rotate_theRVD2	1	1	294	1	2
+108	__rotate_theRVI2	1	1	295	1	2
+109	__rotate_stop0	1	1	296	1	2
+110	__rotate_sync0	1	1	297	1	2
+111	__rotate_theUF0	1	1	298	1	6
+112	__rotate_turnpct0	2	1	299	1	3
+113	__rotate_firstPort0	1	1	300	1	5
+114	__OnRev_Tmp	2	1	301	1	4
+115	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	302	1	4
+116	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	303	1	2
+117	__rotate_power0	1	1	304	1	4
+118	__rotate_rs0	1	1	305	1	2
+119	__rotate_theRVD0	1	1	306	1	2
+120	__rotate_theTurnPct0	2	1	307	1	4
+121	__rotate_thePower0	2	1	308	1	4
+122	__rotate_theRVI0	1	1	309	1	2
+123	__rotate_theRM0	1	1	310	1	4
+124	__rotate_theOM0	1	1	311	1	7
+125	__rotate_theRVP0	1	1	312	1	2
+126	__rotate_theRS0	1	1	313	1	3
+127	__RLSBIterations0	1	1	314	1	4
+128	__RLSBytesCount0	1	1	315	1	8
+129	____ReadLSBytes2_return	1	1	316	1	3
+130	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	317	1	4
+131	____ReadLSBytes0_return	1	1	318	1	4
+132	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	319	1	4
+133	__RLSBResult0	2	1	320	1	7
+134	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	321	1	4
+135	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	322	1	4
+136	__constVal13	2	0	323	1	1
+137	__constVal2	2	0	324	1	12
+138	__constVal8	2	0	325	1	4
+139	__PFTmp	1	1	326	1	1
+140	__RLSBytesCount2	1	1	327	1	7
+141	__RLSBResult2	2	1	328	1	7
+142	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	329	1	10
+143	__RLSBIterations2	1	1	330	1	4
+144	__LSWriteOptions2	1	1	331	1	1
+145	__constVal3	2	0	332	1	33
+146	____RotateMotor2_sign_tmp	2	1	333	1	4
+147	__ResetSensorTmp	1	1	334	1	2
+148	__ResetSensorPort	1	1	335	1	6
+149	____RotateMotor2_return	1	1	336	1	3
+150	__constVal1	2	0	337	1	46
+151	__constVal32	2	0	338	1	105
+152	__constVal50	2	0	339	1	2
+153	__constVal0	2	1	340	1	126
+154	__LSWriteOptions0	1	1	341	1	1
+155	____ResetSensorSubroutine_return	1	1	342	1	6
+156	__CLSWArgs2	8	0	4	12	5
+157	__CLSWArgs2.Result	2	1	344	1	5
+158	__CLSWArgs2.Port	1	1	345	1	5
+159	__CLSWArgs2.Buffer	7	0	346	4	5
+160	__CLSWArgs2.Buffer.Buffer_type	1	0	0	1	0
+161	__CLSWArgs2.ReturnLen	1	1	348	1	5
+162	__CLSRArgs2	8	0	4	12	5
+163	__CLSRArgs2.Result	2	1	352	1	5
+164	__CLSRArgs2.Port	1	1	353	1	5
+165	__CLSRArgs2.Buffer	7	0	354	4	5
+166	__CLSRArgs2.Buffer.Buffer_type	1	0	0	1	0
+167	__CLSRArgs2.BufferLen	1	1	356	1	5
+168	__TextOutArgs	8	0	4	16	6
+169	__TextOutArgs.Result	2	1	360	1	6
+170	__TextOutArgs.Location	8	0	2	4	6
+171	__TextOutArgs.Location.X	4	1	364	2	6
+172	__TextOutArgs.Location.Y	4	1	366	2	6
+173	__TextOutArgs.Text	7	0	368	4	6
+174	__TextOutArgs.Text.Text_type	1	0	0	1	0
+175	__TextOutArgs.Options	5	1	372	4	6
+176	__CLSWArgs0	8	0	4	12	5
+177	__CLSWArgs0.Result	2	1	376	1	5
+178	__CLSWArgs0.Port	1	1	377	1	5
+179	__CLSWArgs0.Buffer	7	0	378	4	5
+180	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+181	__CLSWArgs0.ReturnLen	1	1	380	1	5
+182	__CLSCSArgs0	8	0	3	4	4
+183	__CLSCSArgs0.Result	2	1	384	1	4
+184	__CLSCSArgs0.Port	1	1	385	1	4
+185	__CLSCSArgs0.BytesReady	1	1	386	1	4
+186	__CLSCSArgs2	8	0	3	4	4
+187	__CLSCSArgs2.Result	2	1	388	1	4
+188	__CLSCSArgs2.Port	1	1	389	1	4
+189	__CLSCSArgs2.BytesReady	1	1	390	1	4
+190	__CLSRArgs0	8	0	4	12	5
+191	__CLSRArgs0.Result	2	1	392	1	5
+192	__CLSRArgs0.Port	1	1	393	1	5
+193	__CLSRArgs0.Buffer	7	0	394	4	5
+194	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+195	__CLSRArgs0.BufferLen	1	1	396	1	5
+196	__rotate_ports2	7	0	398	4	6
+197	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+198	__RLSBbufLSWrite1	7	0	400	4	3
+199	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+200	__OUT_AC	7	0	402	4	18
+201	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+202	__rotate_ports0	7	0	404	4	6
+203	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+204	__RLSLastGoodRead2	7	0	406	4	2
+205	__RLSLastGoodRead2.__RLSLastGoodRead2_type	1	0	0	1	0
+206	__RLSReadBuf2	7	0	408	4	8
+207	__RLSReadBuf2.__RLSReadBuf2_type	1	0	0	1	0
+208	__RLSLastGoodRead0	7	0	410	4	2
+209	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+210	__RLSReadBuf0	7	0	412	4	10
+211	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	243	0	#line 243 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	244	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	243	2	#line 243 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	243	2	#line 243 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	244	2		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
+0	243	5	#line 243 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	4302	5	#line 4302 "NXCDefs.h"
+0	4303	5	#pragma macro 6
+0	4303	5		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	4303	9		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	4303	13		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	4303	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6180	18	#line 6180 "NXCDefs.h"
+0	4302	18	#line 4302 "NXCDefs.h"
+0	244	18	#line 244 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	244	18	#line 244 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	245	18		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	244	21	#line 244 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	245	21	#line 245 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	246	21		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	23	#line 4342 "NXCDefs.h"
+0	4343	23		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	27	#line 4342 "NXCDefs.h"
+0	4343	27		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	30	#line 4342 "NXCDefs.h"
+0	4343	30		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	33	#line 4342 "NXCDefs.h"
+0	4343	33		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	36	#line 4342 "NXCDefs.h"
+0	4342	36	#line 4342 "NXCDefs.h"
+0	4343	36		jmp __004__ASM_Label_37
+0	4342	38	#line 4342 "NXCDefs.h"
+0	4343	38		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	41	#line 4342 "NXCDefs.h"
+0	4342	41	#line 4342 "NXCDefs.h"
+0	4343	41		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	43	#line 4247 "NXCDefs.h"
+0	4248	43		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	47	#line 4247 "NXCDefs.h"
+0	4343	47	#line 4343 "NXCDefs.h"
+0	4343	47	#line 4343 "NXCDefs.h"
+0	4344	47		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	49	#line 4343 "NXCDefs.h"
+0	4343	49	#line 4343 "NXCDefs.h"
+0	4344	49		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	52	#line 4343 "NXCDefs.h"
+0	4260	52	#line 4260 "NXCDefs.h"
+0	4261	52		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	56	#line 4260 "NXCDefs.h"
+0	4344	56	#line 4344 "NXCDefs.h"
+0	4344	56	#line 4344 "NXCDefs.h"
+0	4345	56		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	58	#line 4344 "NXCDefs.h"
+0	4278	58	#line 4278 "NXCDefs.h"
+0	4279	58	#pragma macro 4
+0	4279	58		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	60		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6270	63	#line 6270 "NXCDefs.h"
+0	4278	63	#line 4278 "NXCDefs.h"
+0	4345	63	#line 4345 "NXCDefs.h"
+0	245	63	#line 245 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	245	63	#line 245 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	246	63		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 2
+0	245	66	#line 245 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	246	66	#line 246 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	247	66		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	68	#line 4342 "NXCDefs.h"
+0	4343	68		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	70	#line 4342 "NXCDefs.h"
+0	4342	70	#line 4342 "NXCDefs.h"
+0	4343	70		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	72	#line 4342 "NXCDefs.h"
+0	4343	72		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	75	#line 4342 "NXCDefs.h"
+0	4343	75		brtst 4, __005__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	78	#line 4342 "NXCDefs.h"
+0	4343	78		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	81	#line 4342 "NXCDefs.h"
+0	4342	81	#line 4342 "NXCDefs.h"
+0	4343	81		jmp __005__ASM_Label_37
+0	4342	83	#line 4342 "NXCDefs.h"
+0	4343	83		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	86	#line 4342 "NXCDefs.h"
+0	4342	86	#line 4342 "NXCDefs.h"
+0	4343	86		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	88	#line 4247 "NXCDefs.h"
+0	4248	88		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	92	#line 4247 "NXCDefs.h"
+0	4343	92	#line 4343 "NXCDefs.h"
+0	4343	92	#line 4343 "NXCDefs.h"
+0	4344	92		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	94	#line 4343 "NXCDefs.h"
+0	4343	94	#line 4343 "NXCDefs.h"
+0	4344	94		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	97	#line 4343 "NXCDefs.h"
+0	4260	97	#line 4260 "NXCDefs.h"
+0	4261	97		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	101	#line 4260 "NXCDefs.h"
+0	4344	101	#line 4344 "NXCDefs.h"
+0	4344	101	#line 4344 "NXCDefs.h"
+0	4345	101		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4344	103	#line 4344 "NXCDefs.h"
+0	4278	103	#line 4278 "NXCDefs.h"
+0	4279	103	#pragma macro 4
+0	4279	103		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	105		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6333	108	#line 6333 "NXCDefs.h"
+0	4278	108	#line 4278 "NXCDefs.h"
+0	4345	108	#line 4345 "NXCDefs.h"
+0	246	108	#line 246 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	246	108	#line 246 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	247	108		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	246	111	#line 246 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	4386	111	#line 4386 "NXCDefs.h"
+0	4387	111	#pragma macro 6
+0	4387	111		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	4387	115		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	4387	119		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	4387	121		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6346	124	#line 6346 "NXCDefs.h"
+0	4386	124	#line 4386 "NXCDefs.h"
+0	247	124	#line 247 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	249	124	#line 249 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	249	124	#line 249 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+0	250	124		exit 0, 1
+1	5067	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	5068	3		set ____RotateMotor0_sign_tmp, 0
+1	5068	6		brtst EQ, __sign_0, __rotate_angle0
+1	5068	9		set ____RotateMotor0_sign_tmp, -1
+1	5068	12		brtst LT, __sign_0, __rotate_angle0
+1	5068	15		set ____RotateMotor0_sign_tmp, 1
+1	5068	18	__sign_0:	mov __rotate_thePower0, ____RotateMotor0_sign_tmp
+1	5069	20		abs __rotate_theAngle0, __rotate_angle0
+1	5070	23		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	5072	27		set __rotate_theUF0, 23
+1	5073	30		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	5074	33		set __rotate_theOM0, 7
+1	5075	36		set __rotate_theRM0, 2
+1	5076	39		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	5077	41		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	5078	44		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	5079	48		jmp __rotate_Start0
+1	5081	50		set __rotate_theOM0, 3
+1	5082	53		set __rotate_theRM0, 0
+1	5083	56		set __rotate_theTurnPct0, 0
+1	5085	59		set __rotate_theRS0, 32
+1	5086	62		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	5089	85		index __rotate_firstPort0, __rotate_ports0, 65535
+1	5091	89		getout __rotate_power0, __rotate_firstPort0, 2
+1	5092	93		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	5093	96		getout __rotate_rs0, __rotate_firstPort0, 6
+1	5094	100		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	5096	104		brtst 4, __rotate_Reset0, __rotate_stop0
+1	5098	107		set __rotate_theOM0, 7
+1	5099	110		set __rotate_theUF0, 7
+1	5100	113		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	5102	128		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	5104	132		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	5105	134		wait2 NA, __constVal50
+1	5107	137		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	5108	141		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	5109	145		set __rotate_theOM0, 4
+1	5110	148		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	5113	159		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	5114	162		setout __rotate_ports0, 0, __constVal32
+1	5116	167		subret ____RotateMotor0_return
+2	5173	0		brtst 4, __rotate_Done2, __rotate_angle2
+2	5174	3		set ____RotateMotor2_sign_tmp, 0
+2	5174	6		brtst EQ, __sign_2, __rotate_angle2
+2	5174	9		set ____RotateMotor2_sign_tmp, -1
+2	5174	12		brtst LT, __sign_2, __rotate_angle2
+2	5174	15		set ____RotateMotor2_sign_tmp, 1
+2	5174	18	__sign_2:	mov __rotate_thePower2, ____RotateMotor2_sign_tmp
+2	5175	20		abs __rotate_theAngle2, __rotate_angle2
+2	5176	23		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+2	5178	27		set __rotate_theUF2, 23
+2	5179	30		brtst 4, __rotate_NoSync2, __rotate_sync2
+2	5180	33		set __rotate_theOM2, 7
+2	5181	36		set __rotate_theRM2, 2
+2	5182	39		mov __rotate_theTurnPct2, __rotate_turnpct2
+2	5183	41		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+2	5184	44		add __rotate_theUF2, __rotate_theUF2, __constVal32
+2	5185	48		jmp __rotate_Start2
+2	5187	50		set __rotate_theOM2, 3
+2	5188	53		set __rotate_theRM2, 0
+2	5189	56		set __rotate_theTurnPct2, 0
+2	5191	59		set __rotate_theRS2, 32
+2	5192	62		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+2	5195	85		index __rotate_firstPort2, __rotate_ports2, 65535
+2	5197	89		getout __rotate_power2, __rotate_firstPort2, 2
+2	5198	93		brtst 4, __rotate_doneRunning2, __rotate_power2
+2	5199	96		getout __rotate_rs2, __rotate_firstPort2, 6
+2	5200	100		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+2	5202	104		brtst 4, __rotate_Reset2, __rotate_stop2
+2	5204	107		set __rotate_theOM2, 7
+2	5205	110		set __rotate_theUF2, 7
+2	5206	113		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+2	5208	128		getout __rotate_RotCount2, __rotate_firstPort2, 14
+2	5210	132		mov __rotate_OldRotCount2, __rotate_RotCount2
+2	5211	134		wait2 NA, __constVal50
+2	5213	137		getout __rotate_RotCount2, __rotate_firstPort2, 14
+2	5214	141		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+2	5215	145		set __rotate_theOM2, 4
+2	5216	148		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+2	5219	159		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+2	5220	162		setout __rotate_ports2, 0, __constVal32
+2	5222	167		subret ____RotateMotor2_return
+3	5476	0		setin __constVal1, __ResetSensorPort, 5
+3	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	5480	11		subret ____ResetSensorSubroutine_return
+4	6281	0	#pragma macro 25
+4	6281	0		acquire __CLSWMutex0
+4	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+4	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+4	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+4	6281	9		syscall 21, __CLSWArgs0
+4	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+4	6281	14		release __CLSWMutex0
+4	6282	15	#line 6282 "NXTDefs.h"
+4	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+4	6284	18		set __RLSBIterations0, 60
+4	6286	21	#pragma macro 23
+4	6286	21		acquire __CLSCSMutex0
+4	6286	22		set __CLSCSArgs0.Port, 0
+4	6286	25		syscall 23, __CLSCSArgs0
+4	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+4	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+4	6286	32		release __CLSCSMutex0
+4	6286	33	#line 6286 "NXTDefs.h"
+4	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+4	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+4	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+4	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+4	6292	46		wait2 NA, __constVal1
+4	6293	49		jmp __RLSBDoCheckStatus0
+4	6295	51		brtst 4, __RLSBReturn0, __RLSBytesCount0
+4	6296	54		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+4	6298	58	#pragma macro 25
+4	6298	58		acquire __CLSRMutex0
+4	6298	59		set __CLSRArgs0.Port, 0
+4	6298	62		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+4	6298	64		syscall 22, __CLSRArgs0
+4	6298	67		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+4	6298	69		mov __RLSBResult0, __CLSRArgs0.Result
+4	6298	71		release __CLSRMutex0
+4	6298	72	#line 6298 "NXTDefs.h"
+4	6299	72		brtst 5, __RLSBError0, __RLSBResult0
+4	6300	75		mov __RLSLastGoodRead0, __RLSReadBuf0
+4	6301	77		jmp __RLSBDone0
+4	6303	79		mov __RLSReadBuf0, __RLSLastGoodRead0
+4	6305	81		arrsize __RLSBytesCount0, __RLSReadBuf0
+4	6307	84		subret ____ReadLSBytes0_return
+5	6356	0	#pragma macro 25
+5	6356	0		acquire __CLSWMutex2
+5	6356	1		or __CLSWArgs2.Port, __constVal2, __LSWriteOptions2
+5	6356	5		mov __CLSWArgs2.ReturnLen, __RLSBytesCount2
+5	6356	7		mov __CLSWArgs2.Buffer, __RLSReadBuf2
+5	6356	9		syscall 21, __CLSWArgs2
+5	6356	12		mov __RLSBResult2, __CLSWArgs2.Result
+5	6356	14		release __CLSWMutex2
+5	6356	15	#line 6356 "NXTDefs.h"
+5	6357	15		brtst 5, __RLSBError2, __RLSBResult2
+5	6358	18		set __RLSBIterations2, 60
+5	6360	21	#pragma macro 23
+5	6360	21		acquire __CLSCSMutex2
+5	6360	22		set __CLSCSArgs2.Port, 2
+5	6360	25		syscall 23, __CLSCSArgs2
+5	6360	28		mov __RLSBytesCount2, __CLSCSArgs2.BytesReady
+5	6360	30		mov __RLSBResult2, __CLSCSArgs2.Result
+5	6360	32		release __CLSCSMutex2
+5	6360	33	#line 6360 "NXTDefs.h"
+5	6361	33		sub __RLSBIterations2, __RLSBIterations2, __constVal1
+5	6362	37		brtst 2, __RLSBError2, __RLSBIterations2
+5	6363	40		brtst 0, __RLSBError2, __RLSBResult2
+5	6364	43		brtst 4, __RLSBReadyToRead2, __RLSBResult2
+5	6366	46		wait2 NA, __constVal1
+5	6367	49		jmp __RLSBDoCheckStatus2
+5	6369	51		brtst 4, __RLSBReturn2, __RLSBytesCount2
+5	6370	54		arrinit __RLSReadBuf2, __constVal0, __RLSBytesCount2
+5	6372	58	#pragma macro 25
+5	6372	58		acquire __CLSRMutex2
+5	6372	59		set __CLSRArgs2.Port, 2
+5	6372	62		mov __CLSRArgs2.BufferLen, __RLSBytesCount2
+5	6372	64		syscall 22, __CLSRArgs2
+5	6372	67		mov __RLSReadBuf2, __CLSRArgs2.Buffer
+5	6372	69		mov __RLSBResult2, __CLSRArgs2.Result
+5	6372	71		release __CLSRMutex2
+5	6372	72	#line 6372 "NXTDefs.h"
+5	6373	72		brtst 5, __RLSBError2, __RLSBResult2
+5	6374	75		mov __RLSLastGoodRead2, __RLSReadBuf2
+5	6375	77		jmp __RLSBDone2
+5	6377	79		mov __RLSReadBuf2, __RLSLastGoodRead2
+5	6379	81		arrsize __RLSBytesCount2, __RLSReadBuf2
+5	6381	84		subret ____ReadLSBytes2_return
+6	21	0	#line 21 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	22	0		mov __DU0checksensor, searching
+6	22	2	#line 22 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	23	2		tst 5, __D0checksensor, __DU0checksensor
+6	22	5	#line 22 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	23	5		brtst 4, __ASM_Label_490, __D0checksensor
+6	23	8	#line 23 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	24	8		set __checksensor_7qG2_a_7qG2_001, 2
+6	23	11	#line 23 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	24	11	#line 24 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	25	11		getin __signed_stack_001checksensor, __constVal1, 4
+6	24	15	#line 24 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	24	15	#line 24 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	25	15		set __D0checksensor, 1
+6	24	18	#line 24 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	25	18		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	25	22	#line 25 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	26	22		brtst 4, __ASM_Label_497, __D0checksensor
+6	25	25	#line 25 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	26	25		getin __signed_stack_001checksensor, __constVal1, 4
+6	25	29	#line 25 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	25	29	#line 25 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	26	29		set __D0checksensor, 1
+6	25	32	#line 25 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	26	32		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	26	36	#line 26 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	27	36		brtst 4, __ASM_Label_499, __D0checksensor
+6	27	39	#line 27 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	28	39		acquire semaphor
+6	27	40	#line 27 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	27	40	#line 27 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	28	40		getin __signed_stack_001checksensor, __constVal1, 4
+6	27	44	#line 27 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	27	44	#line 27 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	28	44		set __D0checksensor, 4
+6	27	47	#line 27 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	28	47		cmp 4, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	28	51	#line 28 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	29	51		brtst 4, __ASM_Label_504, __D0checksensor
+6	29	54	#line 29 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	30	54	#pragma macro 7
+6	30	54		setout __OUT_AC, 0, __constVal8
+6	4615	59	#line 4615 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	29	59	#line 29 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	29	59	#line 29 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	30	59		mov __D0checksensor, __constValNeg25
+6	30	61	#line 30 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	31	61	#pragma macro 7
+6	31	61		setout __OUT_AC, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4620	84	#line 4620 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	30	84	#line 30 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	30	84	#line 30 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	31	84		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 500
+6	30	87	#line 30 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	8551	87	#line 8551 "NXCDefs.h"
+6	8552	87		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	90	#line 8551 "NXCDefs.h"
+6	31	90	#line 31 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	32	90	#line 32 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	33	90		getout __D0checksensor, __constVal0, 4
+6	32	94	#line 32 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	33	94		add parkingSpace, parkingSpace, __D0checksensor
+6	32	98	#line 32 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	33	98	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	98		jmp __ASM_Label_511
+6	33	100	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	100		set __checksensor_7qG2_j_7qG2_001, 0
+6	33	103	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	33	103	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	103		getin __signed_stack_001checksensor, __constVal1, 4
+6	33	107	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	33	107	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	107		set __D0checksensor, 1
+6	33	110	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	110		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	33	114	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	114		brtst 4, __ASM_Label_519, __D0checksensor
+6	33	117	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	117		mov __signed_stack_001checksensor, __checksensor_7qG2_j_7qG2_001
+6	33	119	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	33	119	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	119		mov __D0checksensor, __checksensor_7qG2_a_7qG2_001
+6	33	121	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	121		cmp 2, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	33	125	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	125		brtst 4, __ASM_Label_513, __D0checksensor
+6	33	128	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	128		jmp __ASM_Label_514
+6	33	130	#line 33 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	34	130		add __checksensor_7qG2_j_7qG2_001, __checksensor_7qG2_j_7qG2_001, __constVal1
+6	34	134	#line 34 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	35	134		jmp __ASM_Label_512
+6	34	136	#line 34 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	35	136		getin __signed_stack_001checksensor, __constVal1, 4
+6	34	140	#line 34 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	35	140	#line 35 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	36	140		set __D0checksensor, 4
+6	35	143	#line 35 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	36	143		cmp 4, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	35	147	#line 35 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	36	147		brtst 4, __ASM_Label_522, __D0checksensor
+6	36	150	#line 36 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	37	150		jmp __ASM_Label_513
+6	36	152	#line 36 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	36	152	#line 36 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	36	152	#line 36 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	37	152		mov __D0checksensor, __constValNeg20
+6	37	154	#line 37 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	38	154	#pragma macro 7
+6	38	154		setout __constVal0, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4705	177	#line 4705 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	37	177	#line 37 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	37	177	#line 37 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	38	177		set __D0checksensor, 20
+6	38	180	#line 38 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	39	180	#pragma macro 7
+6	39	180		setout __constVal2, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4710	203	#line 4710 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	38	203	#line 38 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	38	203	#line 38 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	39	203		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 70
+6	38	206	#line 38 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	8551	206	#line 8551 "NXCDefs.h"
+6	8552	206		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	209	#line 8551 "NXCDefs.h"
+6	39	209	#line 39 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	40	209	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	209		jmp __ASM_Label_515
+6	40	211	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	40	211	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	211		set __checksensor_7qG2_j_7qG2_001, 0
+6	40	214	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	40	214	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	214		getin __signed_stack_001checksensor, __constVal1, 4
+6	40	218	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	40	218	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	218		set __D0checksensor, 1
+6	40	221	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	221		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	40	225	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	225		brtst 4, __ASM_Label_536, __D0checksensor
+6	40	228	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	228		mov __signed_stack_001checksensor, __checksensor_7qG2_j_7qG2_001
+6	40	230	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	40	230	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	230		mov __D0checksensor, __checksensor_7qG2_a_7qG2_001
+6	40	232	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	232		cmp 2, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	40	236	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	236		brtst 4, __ASM_Label_530, __D0checksensor
+6	40	239	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	239		jmp __ASM_Label_531
+6	40	241	#line 40 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	41	241		add __checksensor_7qG2_j_7qG2_001, __checksensor_7qG2_j_7qG2_001, __constVal1
+6	41	245	#line 41 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	42	245		jmp __ASM_Label_529
+6	41	247	#line 41 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	42	247		getin __signed_stack_001checksensor, __constVal1, 4
+6	41	251	#line 41 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	42	251	#line 42 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	43	251		set __D0checksensor, 4
+6	42	254	#line 42 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	43	254		cmp 4, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	42	258	#line 42 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	43	258		brtst 4, __ASM_Label_539, __D0checksensor
+6	43	261	#line 43 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	44	261		jmp __ASM_Label_530
+6	43	263	#line 43 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	43	263	#line 43 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	43	263	#line 43 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	44	263		set __D0checksensor, 20
+6	44	266	#line 44 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	45	266	#pragma macro 7
+6	45	266		setout __constVal0, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4785	289	#line 4785 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	44	289	#line 44 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	44	289	#line 44 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	45	289		mov __D0checksensor, __constValNeg20
+6	45	291	#line 45 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	46	291	#pragma macro 7
+6	46	291		setout __constVal2, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4790	314	#line 4790 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	45	314	#line 45 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	45	314	#line 45 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	46	314		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 70
+6	45	317	#line 45 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	8551	317	#line 8551 "NXCDefs.h"
+6	8552	317		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	320	#line 8551 "NXCDefs.h"
+6	46	320	#line 46 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	47	320	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	320		jmp __ASM_Label_532
+6	47	322	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	47	322	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	322		set __checksensor_7qG2_j_7qG2_001, 0
+6	47	325	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	47	325	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	325		getin __signed_stack_001checksensor, __constVal1, 4
+6	47	329	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	47	329	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	329		set __D0checksensor, 1
+6	47	332	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	332		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	47	336	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	336		brtst 4, __ASM_Label_553, __D0checksensor
+6	47	339	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	339		mov __signed_stack_001checksensor, __checksensor_7qG2_j_7qG2_001
+6	47	341	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	47	341	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	341		mov __D0checksensor, __checksensor_7qG2_a_7qG2_001
+6	47	343	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	343		cmp 2, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	47	347	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	347		brtst 4, __ASM_Label_547, __D0checksensor
+6	47	350	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	350		jmp __ASM_Label_548
+6	47	352	#line 47 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	48	352		add __checksensor_7qG2_j_7qG2_001, __checksensor_7qG2_j_7qG2_001, __constVal1
+6	48	356	#line 48 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	49	356		jmp __ASM_Label_546
+6	48	358	#line 48 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	49	358		getin __signed_stack_001checksensor, __constVal1, 4
+6	48	362	#line 48 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	49	362	#line 49 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	50	362		set __D0checksensor, 4
+6	49	365	#line 49 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	50	365		cmp 4, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	49	369	#line 49 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	50	369		brtst 4, __ASM_Label_556, __D0checksensor
+6	50	372	#line 50 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	51	372		jmp __ASM_Label_547
+6	50	374	#line 50 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	50	374	#line 50 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	50	374	#line 50 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	51	374		mov __D0checksensor, __constValNeg20
+6	51	376	#line 51 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	52	376	#pragma macro 7
+6	52	376		setout __constVal2, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4865	399	#line 4865 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	51	399	#line 51 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	51	399	#line 51 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	52	399		set __D0checksensor, 20
+6	52	402	#line 52 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	53	402	#pragma macro 7
+6	53	402		setout __constVal0, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4870	425	#line 4870 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	52	425	#line 52 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	52	425	#line 52 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	53	425		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 70
+6	52	428	#line 52 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	8551	428	#line 8551 "NXCDefs.h"
+6	8552	428		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	431	#line 8551 "NXCDefs.h"
+6	53	431	#line 53 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	54	431	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	431		jmp __ASM_Label_549
+6	54	433	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	54	433	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	433		set __checksensor_7qG2_j_7qG2_001, 0
+6	54	436	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	54	436	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	436		getin __signed_stack_001checksensor, __constVal1, 4
+6	54	440	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	54	440	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	440		set __D0checksensor, 1
+6	54	443	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	443		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	54	447	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	447		brtst 4, __ASM_Label_570, __D0checksensor
+6	54	450	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	450		mov __signed_stack_001checksensor, __checksensor_7qG2_j_7qG2_001
+6	54	452	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	54	452	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	452		mov __D0checksensor, __checksensor_7qG2_a_7qG2_001
+6	54	454	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	454		cmp 2, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	54	458	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	458		brtst 4, __ASM_Label_564, __D0checksensor
+6	54	461	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	461		jmp __ASM_Label_565
+6	54	463	#line 54 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	55	463		add __checksensor_7qG2_j_7qG2_001, __checksensor_7qG2_j_7qG2_001, __constVal1
+6	55	467	#line 55 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	56	467		jmp __ASM_Label_563
+6	55	469	#line 55 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	56	469		getin __signed_stack_001checksensor, __constVal1, 4
+6	55	473	#line 55 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	56	473	#line 56 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	57	473		set __D0checksensor, 4
+6	56	476	#line 56 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	57	476		cmp 4, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	56	480	#line 56 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	57	480		brtst 4, __ASM_Label_573, __D0checksensor
+6	57	483	#line 57 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	58	483		jmp __ASM_Label_564
+6	57	485	#line 57 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	57	485	#line 57 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	57	485	#line 57 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	58	485		mov __D0checksensor, __constValNeg20
+6	58	487	#line 58 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	59	487	#pragma macro 7
+6	59	487		setout __constVal0, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4945	510	#line 4945 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	58	510	#line 58 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	58	510	#line 58 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	59	510		set __D0checksensor, 20
+6	59	513	#line 59 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	60	513	#pragma macro 7
+6	60	513		setout __constVal2, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4950	536	#line 4950 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	59	536	#line 59 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	59	536	#line 59 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	60	536		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 70
+6	59	539	#line 59 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	8551	539	#line 8551 "NXCDefs.h"
+6	8552	539		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	542	#line 8551 "NXCDefs.h"
+6	60	542	#line 60 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	61	542	#line 61 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	62	542		jmp __ASM_Label_566
+6	61	544	#line 61 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	62	544	#line 62 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	63	544		add __checksensor_7qG2_a_7qG2_001, __checksensor_7qG2_a_7qG2_001, __constVal1
+6	62	548	#line 62 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	63	548	#line 63 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	64	548	#line 64 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	65	548		release semaphor
+6	64	549	#line 64 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	66	549	#line 66 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	67	549		jmp __ASM_Label_498
+6	66	551	#line 66 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	67	551	#line 67 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	69	551	#line 69 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	70	551		jmp __ASM_Label_489
+6	69	553	#line 69 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+6	70	553		exit -1, -1
+7	71	0	#line 71 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	72	0		subcall __checksensor_Spawner, __checksensor_Spawner_return
+7	71	2	#line 71 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	71	2	#line 71 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	72	2		mov __DU0move, searching
+7	72	4	#line 72 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	73	4		tst 5, __D0move, __DU0move
+7	72	7	#line 72 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	73	7		brtst 4, __ASM_Label_581, __D0move
+7	73	10	#line 73 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	74	10		acquire semaphor
+7	73	11	#line 73 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	73	11	#line 73 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	74	11		getin __signed_stack_001move, __constVal1, 4
+7	73	15	#line 73 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	73	15	#line 73 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	74	15		set __D0move, 1
+7	73	18	#line 73 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	74	18		cmp 4, __D0move, __signed_stack_001move, __D0move
+7	74	22	#line 74 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	75	22		brtst 4, __ASM_Label_586, __D0move
+7	75	25	#line 75 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	76	25	#pragma macro 7
+7	76	25		setout __OUT_AC, 0, __constVal8
+7	5015	30	#line 5015 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	75	30	#line 75 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	75	30	#line 75 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	76	30		mov __D0move, __constValNeg50
+7	76	32	#line 76 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	77	32	#pragma macro 7
+7	77	32		setout __OUT_AC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	5020	55	#line 5020 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	76	55	#line 76 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	76	55	#line 76 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	77	55		set __Wait_7qG2_ms_7qG2_000_inline_move, 100
+7	76	58	#line 76 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	8551	58	#line 8551 "NXCDefs.h"
+7	8552	58		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move
+7	8551	61	#line 8551 "NXCDefs.h"
+7	77	61	#line 77 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	78	61	#line 78 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	79	61		getout __D0move, __constVal0, 4
+7	78	65	#line 78 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	79	65		sub parkingSpace, parkingSpace, __D0move
+7	78	69	#line 78 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	79	69	#line 79 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	80	69	#line 80 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	81	69		release semaphor
+7	80	70	#line 80 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	83	70	#line 83 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	84	70		jmp __ASM_Label_580
+7	83	72	#line 83 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+7	84	72		exit -1, -1
+8	0	0		subret __checksensor_Spawner_return
+9	0	0		exit 0, 1
+10	85	0	#line 85 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	86	0		subcall __checksensor_Spawner, __checksensor_Spawner_return
+10	85	2	#line 85 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	86	2	#line 86 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	87	2		set __D0moveAfterBox, 1
+10	87	5	#line 87 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	88	5		tst 5, __D0moveAfterBox, __D0moveAfterBox
+10	87	8	#line 87 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	88	8		brtst 4, __ASM_Label_594, __D0moveAfterBox
+10	88	11	#line 88 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	89	11		acquire semaphor
+10	88	12	#line 88 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	88	12	#line 88 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	89	12		getin __signed_stack_001moveAfterBox, __constVal1, 4
+10	88	16	#line 88 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	88	16	#line 88 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	89	16		set __D0moveAfterBox, 1
+10	88	19	#line 88 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	89	19		cmp 4, __D0moveAfterBox, __signed_stack_001moveAfterBox, __D0moveAfterBox
+10	89	23	#line 89 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	90	23		brtst 4, __ASM_Label_599, __D0moveAfterBox
+10	89	26	#line 89 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	90	26		set __signed_stack_001moveAfterBox, 3
+10	89	29	#line 89 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	89	29	#line 89 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	90	29	#pragma macro 26
+10	90	29		acquire __RLSBmutex2
+10	90	30		mov __RLSReadBuf2, __RLSBbufLSWrite1
+10	90	32		set __RLSBytesCount2, 1
+10	90	35		wait2 NA, __constVal15
+10	90	38		subcall __ReadLSBytes2, ____ReadLSBytes2_return
+10	90	40		index __D0moveAfterBox, __RLSReadBuf2, 65535
+10	90	44		release __RLSBmutex2
+10	5090	45	#line 5090 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	89	45	#line 89 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	90	45		mov __signed_stack_002moveAfterBox, __D0moveAfterBox
+10	89	47	#line 89 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	90	47		set __D0moveAfterBox, 20
+10	89	50	#line 89 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	90	50		sub __D0moveAfterBox, __signed_stack_002moveAfterBox, __D0moveAfterBox
+10	91	54	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	54		mul __moveAfterBox_7qG2_v_7qG2_000, __signed_stack_001moveAfterBox, __D0moveAfterBox
+10	91	58	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	91	58	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	91	58	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	91	58	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	58		mov __signed_stack_001moveAfterBox, __moveAfterBox_7qG2_v_7qG2_000
+10	91	60	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	91	60	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	60		set __D0moveAfterBox, 0
+10	91	63	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	63		cmp 0, __D0moveAfterBox, __signed_stack_001moveAfterBox, __D0moveAfterBox
+10	91	67	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	67		brtst 4, __ASM_Label_606, __D0moveAfterBox
+10	91	70	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	70		set __moveAfterBox_7qG2_v_7qG2_000, 0
+10	91	73	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	91	73	#line 91 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	73	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	73	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	73	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	73		mov __signed_stack_001moveAfterBox, __moveAfterBox_7qG2_v_7qG2_000
+10	92	75	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	75	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	75		set __D0moveAfterBox, 40
+10	92	78	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	78		cmp 1, __D0moveAfterBox, __signed_stack_001moveAfterBox, __D0moveAfterBox
+10	92	82	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	82		brtst 4, __ASM_Label_611, __D0moveAfterBox
+10	92	85	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	85		set __moveAfterBox_7qG2_v_7qG2_000, 40
+10	92	88	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	92	88	#line 92 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	88	#line 93 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	88	#line 93 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	88	#line 93 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	94	88		set __signed_stack_001moveAfterBox, 0
+10	93	91	#line 93 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	93	91	#line 93 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	94	91		mov __D0moveAfterBox, __moveAfterBox_7qG2_v_7qG2_000
+10	93	93	#line 93 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	94	93		sub __D0moveAfterBox, __signed_stack_001moveAfterBox, __D0moveAfterBox
+10	94	97	#line 94 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	95	97	#pragma macro 7
+10	95	97		setout __OUT_AC, 2, __D0moveAfterBox, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+10	5167	120	#line 5167 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	94	120	#line 94 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	94	120	#line 94 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	95	120		set __Wait_7qG2_ms_7qG2_000_inline_moveAfterBox, 100
+10	94	123	#line 94 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	8551	123	#line 8551 "NXCDefs.h"
+10	8552	123		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_moveAfterBox
+10	8551	126	#line 8551 "NXCDefs.h"
+10	95	126	#line 95 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	96	126	#line 96 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	97	126	#line 97 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	98	126		release semaphor
+10	97	127	#line 97 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	100	127	#line 100 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	101	127		jmp __ASM_Label_593
+10	100	129	#line 100 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+10	101	129		exit -1, -1
+11	108	0	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	109	0		set __Right_7qG2_i_7qG2_001, 0
+11	108	3	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	108	3	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	109	3		mov __signed_stack_001Right, __Right_7qG2_i_7qG2_001
+11	108	5	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	108	5	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	109	5		mov __D0Right, __Right_7qG2_j_7qG2_000
+11	108	7	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	109	7		cmp 2, __D0Right, __signed_stack_001Right, __D0Right
+11	108	11	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	109	11		brtst 4, __ASM_Label_633, __D0Right
+11	108	14	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	109	14		jmp __ASM_Label_634
+11	108	16	#line 108 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	109	16		add __Right_7qG2_i_7qG2_001, __Right_7qG2_i_7qG2_001, __constVal1
+11	109	20	#line 109 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	110	20		jmp __ASM_Label_632
+11	109	22	#line 109 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	110	22		mov __D0Right, __constValNeg20
+11	110	24	#line 110 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	111	24	#pragma macro 7
+11	111	24		setout __constVal0, 2, __D0Right, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5297	47	#line 5297 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	110	47	#line 110 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	110	47	#line 110 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	111	47		set __D0Right, 20
+11	111	50	#line 111 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	112	50	#pragma macro 7
+11	112	50		setout __constVal2, 2, __D0Right, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+11	5302	73	#line 5302 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	111	73	#line 111 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	111	73	#line 111 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	112	73		set __Wait_7qG2_ms_7qG2_000_inline_Right, 50
+11	111	76	#line 111 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	8551	76	#line 8551 "NXCDefs.h"
+11	8552	76		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Right
+11	8551	79	#line 8551 "NXCDefs.h"
+11	112	79	#line 112 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	115	79	#line 115 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	116	79		jmp __ASM_Label_635
+11	115	81	#line 115 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	115	81	#line 115 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+11	116	81		subret __Right_return
+12	116	0	#line 116 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	117	0		mov __signed_stack_001parking, __constValNeg30
+12	116	2	#line 116 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	116	2	#line 116 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	117	2		set __D0parking, 95
+12	117	5	#line 117 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	118	5	#pragma macro 33
+12	118	5		arrbuild __rotate_ports2, __constVal2
+12	118	9		mov __rotate_power2, __signed_stack_001parking
+12	118	11		mov __rotate_angle2, __D0parking
+12	118	13		mov __rotate_turnpct2, __constVal0
+12	118	15		mov __rotate_sync2, __constVal0
+12	118	17		mov __rotate_stop2, __constVal1
+12	118	19		mov __rotate_theRVP2, __constVal32
+12	118	21		mov __rotate_theRVI2, __constVal0
+12	118	23		mov __rotate_theRVD2, __constVal96
+12	118	25		subcall __RotateMotor2, ____RotateMotor2_return
+12	5333	28	#line 5333 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	117	28	#line 117 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	117	28	#line 117 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	118	28		mov __signed_stack_001parking, __constValNeg30
+12	117	30	#line 117 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	117	30	#line 117 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	118	30		mov __D0parking, __constValNeg95
+12	118	32	#line 118 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	119	32	#pragma macro 33
+12	119	32		arrbuild __rotate_ports0, __constVal0
+12	119	36		mov __rotate_power0, __signed_stack_001parking
+12	119	38		mov __rotate_angle0, __D0parking
+12	119	40		mov __rotate_turnpct0, __constVal0
+12	119	42		mov __rotate_sync0, __constVal0
+12	119	44		mov __rotate_stop0, __constVal1
+12	119	46		mov __rotate_theRVP0, __constVal32
+12	119	48		mov __rotate_theRVI0, __constVal0
+12	119	50		mov __rotate_theRVD0, __constVal96
+12	119	52		subcall __RotateMotor0, ____RotateMotor0_return
+12	5344	54	#line 5344 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	118	54	#line 118 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	118	54	#line 118 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	119	54		getin __signed_stack_001parking, __constVal3, 4
+12	118	58	#line 118 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	118	58	#line 118 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	119	58		set __D0parking, 1
+12	118	61	#line 118 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	119	61		cmp 5, __D0parking, __signed_stack_001parking, __D0parking
+12	119	65	#line 119 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	120	65		brtst 4, __ASM_Label_655, __D0parking
+12	119	68	#line 119 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	120	68		mov __D0parking, __constValNeg30
+12	125	70	#line 125 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	126	70	#pragma macro 10
+12	126	70		acquire __OnRevMutex
+12	126	71		neg __OnRev_Tmp, __D0parking
+12	126	74		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+12	126	97		release __OnRevMutex
+12	5365	98	#line 5365 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	125	98	#line 125 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	125	98	#line 125 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	126	98		set __Wait_7qG2_ms_7qG2_000_inline_parking, 50
+12	125	101	#line 125 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	8551	101	#line 8551 "NXCDefs.h"
+12	8552	101		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_parking
+12	8551	104	#line 8551 "NXCDefs.h"
+12	126	104	#line 126 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	127	104	#line 127 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	128	104		jmp __ASM_Label_654
+12	127	106	#line 127 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	127	106	#line 127 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	128	106		set __D0parking, 0
+12	128	109	#line 128 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	129	109	#pragma macro 7
+12	129	109		setout __OUT_AC, 2, __D0parking, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+12	5386	132	#line 5386 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	128	132	#line 128 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	128	132	#line 128 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	129	132		set __Wait_7qG2_ms_7qG2_000_inline_parking, 5000
+12	128	135	#line 128 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	8551	135	#line 8551 "NXCDefs.h"
+12	8552	135		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_parking
+12	8551	138	#line 8551 "NXCDefs.h"
+12	129	138	#line 129 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	131	138	#line 131 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+12	132	138		subret __parking_return
+13	133	0	#line 133 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	134	0	#pragma macro 7
+13	134	0		setout __OUT_AC, 0, __constVal8
+13	5406	5	#line 5406 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	133	5	#line 133 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	138	5	#line 138 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	139	5	#pragma macro 7
+13	139	5		setout __OUT_AC, 0, __constVal8
+13	5414	10	#line 5414 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	138	10	#line 138 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	138	10	#line 138 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	139	10		mov __D0Rev, __constValNeg40
+13	139	12	#line 139 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	140	12	#pragma macro 10
+13	140	12		acquire __OnRevMutex
+13	140	13		neg __OnRev_Tmp, __D0Rev
+13	140	16		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+13	140	39		release __OnRevMutex
+13	5419	40	#line 5419 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	139	40	#line 139 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	139	40	#line 139 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	140	40		set __Wait_7qG2_ms_7qG2_000_inline_Rev, 50
+13	139	43	#line 139 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	8551	43	#line 8551 "NXCDefs.h"
+13	8552	43		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Rev
+13	8551	46	#line 8551 "NXCDefs.h"
+13	140	46	#line 140 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	140	46	#line 140 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	141	46		getout __signed_stack_001Rev, __constVal0, 4
+13	140	50	#line 140 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	140	50	#line 140 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	141	50		getout __D0Rev, __constVal2, 4
+13	140	54	#line 140 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	141	54		add __signed_stack_001Rev, __signed_stack_001Rev, __D0Rev
+13	140	58	#line 140 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	141	58	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	58		set __D0Rev, 2
+13	141	61	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	61		div __D0Rev, __signed_stack_001Rev, __D0Rev
+13	141	65	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	65		add __Rev_7qG2_avg_7qG2_000, __Rev_7qG2_avg_7qG2_000, __D0Rev
+13	141	69	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	141	69	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	69		mov __signed_stack_001Rev, __Rev_7qG2_avg_7qG2_000
+13	141	71	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	141	71	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	71		mov __signed_stack_002Rev, __Rev_7qG2_t_7qG2_000
+13	141	73	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	141	73	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	73		set __D0Rev, 3
+13	141	76	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	76		div __D0Rev, __signed_stack_002Rev, __D0Rev
+13	141	80	#line 141 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	80		cmp 2, __D0Rev, __signed_stack_001Rev, __D0Rev
+13	142	84	#line 142 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	143	84		brtst 4, __ASM_Label_667, __D0Rev
+13	142	87	#line 142 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	143	87		jmp __ASM_Label_666
+13	142	89	#line 142 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	142	89	#line 142 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	143	89	#line 143 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	144	89		subcall parking, __parking_return
+13	143	91	#line 143 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	145	91	#line 145 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+13	146	91		subret __Rev_return
+14	146	0	#line 146 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	147	0		getin __signed_stack_001exiting, __constVal1, 4
+14	146	4	#line 146 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	146	4	#line 146 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	147	4		set __D0exiting, 1
+14	146	7	#line 146 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	147	7		cmp 5, __D0exiting, __signed_stack_001exiting, __D0exiting
+14	147	11	#line 147 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	148	11		brtst 4, __ASM_Label_679, __D0exiting
+14	147	14	#line 147 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	148	14		mov __D0exiting, __constValNeg40
+14	148	16	#line 148 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	149	16	#pragma macro 7
+14	149	16		setout __OUT_AC, 2, __D0exiting, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+14	5511	39	#line 5511 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	148	39	#line 148 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	148	39	#line 148 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	149	39		set __Wait_7qG2_ms_7qG2_000_inline_exiting, 100
+14	148	42	#line 148 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	8551	42	#line 8551 "NXCDefs.h"
+14	8552	42		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_exiting
+14	8551	45	#line 8551 "NXCDefs.h"
+14	149	45	#line 149 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	150	45	#line 150 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	151	45		jmp __ASM_Label_678
+14	150	47	#line 150 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	150	47	#line 150 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	151	47		mov __D0exiting, __constValNeg40
+14	151	49	#line 151 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	152	49	#pragma macro 7
+14	152	49		setout __OUT_AC, 2, __D0exiting, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+14	5532	72	#line 5532 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	151	72	#line 151 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	151	72	#line 151 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	152	72		set __Wait_7qG2_ms_7qG2_000_inline_exiting, 500
+14	151	75	#line 151 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	8551	75	#line 8551 "NXCDefs.h"
+14	8552	75		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_exiting
+14	8551	78	#line 8551 "NXCDefs.h"
+14	152	78	#line 152 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	152	78	#line 152 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	153	78		getin __signed_stack_001exiting, __constVal1, 4
+14	152	82	#line 152 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	153	82	#line 153 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	154	82		set __D0exiting, 1
+14	153	85	#line 153 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	154	85		cmp 5, __D0exiting, __signed_stack_001exiting, __D0exiting
+14	153	89	#line 153 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	154	89		brtst 4, __ASM_Label_691, __D0exiting
+14	153	92	#line 153 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	154	92		set __Right_7qG2_j_7qG2_000, 1
+14	153	95	#line 153 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	154	95	#line 154 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	155	95		subcall Right, __Right_return
+14	154	97	#line 154 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	154	97	#line 154 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	155	97		jmp __ASM_Label_690
+14	154	99	#line 154 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	155	99	#line 155 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	156	99		set searching, 1
+14	155	102	#line 155 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	155	102	#line 155 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	156	102	#line 156 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	157	102		exitto moveAfterBox
+14	156	104	#line 156 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+14	157	104		exit -1, -1
+15	159	0	#line 159 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	160	0		set __D0searchspace, 1
+15	160	3	#line 160 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	161	3		tst 5, __D0searchspace, __D0searchspace
+15	160	6	#line 160 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	161	6		brtst 4, __ASM_Label_699, __D0searchspace
+15	161	9	#line 161 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	162	9		set parkingSpace, 0
+15	161	12	#line 161 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	161	12	#line 161 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	161	12	#line 161 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	162	12	#pragma macro 26
+15	162	12		acquire __RLSBmutex0
+15	162	13		mov __RLSReadBuf0, __RLSBbufLSWrite1
+15	162	15		set __RLSBytesCount0, 1
+15	162	18		wait2 NA, __constVal15
+15	162	21		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+15	162	23		index __D0searchspace, __RLSReadBuf0, 65535
+15	162	27		release __RLSBmutex0
+15	5592	28	#line 5592 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	161	28	#line 161 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	162	28		mov __signed_stack_001searchspace, __D0searchspace
+15	161	30	#line 161 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	162	30		set __D0searchspace, 10
+15	161	33	#line 161 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	162	33		cmp 3, __D0searchspace, __signed_stack_001searchspace, __D0searchspace
+15	162	37	#line 162 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	163	37		brtst 4, __ASM_Label_706, __D0searchspace
+15	162	40	#line 162 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	163	40	#pragma macro 26
+15	163	40		acquire __RLSBmutex0
+15	163	41		mov __RLSReadBuf0, __RLSBbufLSWrite1
+15	163	43		set __RLSBytesCount0, 1
+15	163	46		wait2 NA, __constVal15
+15	163	49		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+15	163	51		index __D0searchspace, __RLSReadBuf0, 65535
+15	163	55		release __RLSBmutex0
+15	5607	56	#line 5607 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	162	56	#line 162 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	163	56		mov __signed_stack_001searchspace, __D0searchspace
+15	162	58	#line 162 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	163	58		set __D0searchspace, 10
+15	162	61	#line 162 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	163	61		cmp 3, __D0searchspace, __signed_stack_001searchspace, __D0searchspace
+15	164	65	#line 164 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	165	65		brtst 4, __ASM_Label_708, __D0searchspace
+15	165	68	#line 165 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	166	68		jmp __ASM_Label_707
+15	165	70	#line 165 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	165	70	#line 165 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	166	70		mov __signed_stack_001searchspace, parkingSpace
+15	165	72	#line 165 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	165	72	#line 165 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	166	72		mov __DF0searchspace, __constVal630
+15	165	74	#line 165 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	166	74		cmp 1, __D0searchspace, __signed_stack_001searchspace, __DF0searchspace
+15	166	78	#line 166 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	167	78		brtst 4, __ASM_Label_713, __D0searchspace
+15	167	81	#line 167 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	168	81		set searching, 0
+15	167	84	#line 167 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	167	84	#line 167 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	167	84	#line 167 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	168	84		mov __Rev_7qG2_t_7qG2_000, parkingSpace
+15	167	86	#line 167 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	168	86	#line 168 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	169	86		subcall Rev, __Rev_return
+15	168	88	#line 168 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	169	88	#line 169 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	170	88		exitto exiting
+15	169	90	#line 169 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	171	90	#line 171 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	171	90	#line 171 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	171	90	#line 171 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	172	90		set __Wait_7qG2_ms_7qG2_000_inline_searchspace, 50
+15	171	93	#line 171 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	8551	93	#line 8551 "NXCDefs.h"
+15	8552	93		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_searchspace
+15	8551	96	#line 8551 "NXCDefs.h"
+15	173	96	#line 173 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	176	96	#line 176 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	177	96		jmp __ASM_Label_698
+15	176	98	#line 176 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+15	177	98		exit -1, -1
+16	179	0	#line 179 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	180	0		set __lab_7qG2_a_7qG2_000, 0
+16	179	3	#line 179 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	179	3	#line 179 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	180	3		getin __signed_stack_001lab, __constVal1, 4
+16	179	7	#line 179 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	179	7	#line 179 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	180	7		set __D0lab, 4
+16	179	10	#line 179 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	180	10		cmp 5, __D0lab, __signed_stack_001lab, __D0lab
+16	180	14	#line 180 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	181	14		brtst 4, __ASM_Label_723, __D0lab
+16	180	17	#line 180 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	181	17		mov __signed_stack_001lab, __lab_7qG2_a_7qG2_000
+16	180	19	#line 180 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	180	19	#line 180 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	181	19		set __D0lab, 6
+16	180	22	#line 180 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	181	22		cmp 0, __D0lab, __signed_stack_001lab, __D0lab
+16	181	26	#line 181 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	182	26		brtst 4, __ASM_Label_728, __D0lab
+16	181	29	#line 181 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	182	29		mov __D0lab, __constValNeg35
+16	182	31	#line 182 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	183	31	#pragma macro 7
+16	183	31		setout __constVal0, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5718	54	#line 5718 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	182	54	#line 182 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	182	54	#line 182 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	183	54		mov __D0lab, __constValNeg20
+16	183	56	#line 183 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	184	56	#pragma macro 7
+16	184	56		setout __constVal2, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5723	79	#line 5723 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	183	79	#line 183 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	183	79	#line 183 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	184	79		set __Wait_7qG2_ms_7qG2_000_inline_lab, 200
+16	183	82	#line 183 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	82	#line 8551 "NXCDefs.h"
+16	8552	82		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	85	#line 8551 "NXCDefs.h"
+16	184	85	#line 184 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	186	85	#line 186 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	187	85		jmp __ASM_Label_735
+16	186	87	#line 186 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	187	87		mov __D0lab, __constValNeg30
+16	187	89	#line 187 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	188	89	#pragma macro 7
+16	188	89		setout __constVal0, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5743	112	#line 5743 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	187	112	#line 187 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	187	112	#line 187 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	188	112		set __D0lab, 0
+16	188	115	#line 188 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	189	115	#pragma macro 7
+16	189	115		setout __constVal2, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5748	138	#line 5748 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	188	138	#line 188 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	188	138	#line 188 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	189	138		set __Wait_7qG2_ms_7qG2_000_inline_lab, 50
+16	188	141	#line 188 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	141	#line 8551 "NXCDefs.h"
+16	8552	141		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	144	#line 8551 "NXCDefs.h"
+16	189	144	#line 189 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	190	144	#line 190 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	190	144	#line 190 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	191	144		getin __signed_stack_001lab, __constVal1, 4
+16	190	148	#line 190 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	190	148	#line 190 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	191	148		set __D0lab, 3
+16	190	151	#line 190 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	191	151		cmp 4, __D0lab, __signed_stack_001lab, __D0lab
+16	191	155	#line 191 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	192	155		brtst 4, __ASM_Label_744, __D0lab
+16	191	158	#line 191 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	192	158		set __D0lab, 40
+16	192	161	#line 192 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	193	161	#pragma macro 7
+16	193	161		setout __OUT_AC, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5777	184	#line 5777 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	192	184	#line 192 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	192	184	#line 192 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	193	184		set __Wait_7qG2_ms_7qG2_000_inline_lab, 100
+16	192	187	#line 192 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	187	#line 8551 "NXCDefs.h"
+16	8552	187		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	190	#line 8551 "NXCDefs.h"
+16	193	190	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	193	190	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	190		set __lab_7qG2_i_7qG2_003, 0
+16	193	193	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	193	193	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	193		mov __signed_stack_001lab, __lab_7qG2_i_7qG2_003
+16	193	195	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	193	195	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	195		set __D0lab, 5
+16	193	198	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	198		cmp 0, __D0lab, __signed_stack_001lab, __D0lab
+16	193	202	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	202		brtst 4, __ASM_Label_756, __D0lab
+16	193	205	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	205		getin __signed_stack_001lab, __constVal1, 4
+16	193	209	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	193	209	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	209		set __D0lab, 3
+16	193	212	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	212		cmp 5, __D0lab, __signed_stack_001lab, __D0lab
+16	193	216	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	216		brtst 4, __ASM_Label_750, __D0lab
+16	193	219	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	219		jmp __ASM_Label_751
+16	193	221	#line 193 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	194	221		add __lab_7qG2_i_7qG2_003, __lab_7qG2_i_7qG2_003, __constVal1
+16	194	225	#line 194 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	195	225		jmp __ASM_Label_749
+16	194	227	#line 194 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	195	227		set __D0lab, 40
+16	195	230	#line 195 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	196	230	#pragma macro 7
+16	196	230		setout __OUT_AC, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5833	253	#line 5833 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	195	253	#line 195 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	195	253	#line 195 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	196	253		set __Wait_7qG2_ms_7qG2_000_inline_lab, 50
+16	195	256	#line 195 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	256	#line 8551 "NXCDefs.h"
+16	8552	256		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	259	#line 8551 "NXCDefs.h"
+16	196	259	#line 196 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	197	259	#line 197 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	198	259		jmp __ASM_Label_752
+16	197	261	#line 197 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	197	261	#line 197 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	198	261		set __D0lab, 40
+16	198	264	#line 198 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	199	264	#pragma macro 7
+16	199	264		setout __constVal0, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5850	287	#line 5850 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	198	287	#line 198 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	198	287	#line 198 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	199	287		mov __D0lab, __constValNeg40
+16	199	289	#line 199 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	200	289	#pragma macro 7
+16	200	289		setout __constVal2, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5855	312	#line 5855 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	199	312	#line 199 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	199	312	#line 199 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	200	312		set __Wait_7qG2_ms_7qG2_000_inline_lab, 150
+16	199	315	#line 199 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	315	#line 8551 "NXCDefs.h"
+16	8552	315		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	318	#line 8551 "NXCDefs.h"
+16	200	318	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	200	318	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	318		set __lab_7qG2_i_7qG2_003, 0
+16	200	321	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	200	321	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	321		mov __signed_stack_001lab, __lab_7qG2_i_7qG2_003
+16	200	323	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	200	323	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	323		set __D0lab, 3
+16	200	326	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	326		cmp 0, __D0lab, __signed_stack_001lab, __D0lab
+16	200	330	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	330		brtst 4, __ASM_Label_774, __D0lab
+16	200	333	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	333		getin __signed_stack_001lab, __constVal1, 4
+16	200	337	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	200	337	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	337		set __D0lab, 3
+16	200	340	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	340		cmp 5, __D0lab, __signed_stack_001lab, __D0lab
+16	200	344	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	344		brtst 4, __ASM_Label_768, __D0lab
+16	200	347	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	347		jmp __ASM_Label_769
+16	200	349	#line 200 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	201	349		add __lab_7qG2_i_7qG2_003, __lab_7qG2_i_7qG2_003, __constVal1
+16	201	353	#line 201 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	202	353		jmp __ASM_Label_767
+16	201	355	#line 201 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	202	355		set __D0lab, 40
+16	202	358	#line 202 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	203	358	#pragma macro 7
+16	203	358		setout __constVal0, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5907	381	#line 5907 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	202	381	#line 202 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	202	381	#line 202 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	203	381		mov __D0lab, __constValNeg40
+16	203	383	#line 203 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	204	383	#pragma macro 7
+16	204	383		setout __constVal2, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5912	406	#line 5912 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	203	406	#line 203 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	203	406	#line 203 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	204	406		set __Wait_7qG2_ms_7qG2_000_inline_lab, 50
+16	203	409	#line 203 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	409	#line 8551 "NXCDefs.h"
+16	8552	409		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	412	#line 8551 "NXCDefs.h"
+16	204	412	#line 204 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	205	412	#line 205 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	206	412		jmp __ASM_Label_770
+16	205	414	#line 205 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	205	414	#line 205 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	206	414		getin __signed_stack_001lab, __constVal1, 4
+16	205	418	#line 205 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	205	418	#line 205 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	206	418		set __D0lab, 3
+16	205	421	#line 205 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	206	421		cmp 4, __D0lab, __signed_stack_001lab, __D0lab
+16	208	425	#line 208 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	209	425		brtst 4, __ASM_Label_783, __D0lab
+16	208	428	#line 208 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	209	428		set __D0lab, 40
+16	209	431	#line 209 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	210	431	#pragma macro 7
+16	210	431		setout __OUT_AC, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5943	454	#line 5943 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	209	454	#line 209 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	209	454	#line 209 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	210	454		set __Wait_7qG2_ms_7qG2_000_inline_lab, 100
+16	209	457	#line 209 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	457	#line 8551 "NXCDefs.h"
+16	8552	457		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	460	#line 8551 "NXCDefs.h"
+16	210	460	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	210	460	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	460		set __lab_7qG2_i_7qG2_004, 0
+16	210	463	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	210	463	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	463		mov __signed_stack_001lab, __lab_7qG2_i_7qG2_004
+16	210	465	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	210	465	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	465		set __D0lab, 5
+16	210	468	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	468		cmp 0, __D0lab, __signed_stack_001lab, __D0lab
+16	210	472	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	472		brtst 4, __ASM_Label_795, __D0lab
+16	210	475	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	475		getin __signed_stack_001lab, __constVal1, 4
+16	210	479	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	210	479	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	479		set __D0lab, 3
+16	210	482	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	482		cmp 5, __D0lab, __signed_stack_001lab, __D0lab
+16	210	486	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	486		brtst 4, __ASM_Label_789, __D0lab
+16	210	489	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	489		jmp __ASM_Label_790
+16	210	491	#line 210 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	211	491		add __lab_7qG2_i_7qG2_004, __lab_7qG2_i_7qG2_004, __constVal1
+16	211	495	#line 211 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	212	495		jmp __ASM_Label_788
+16	211	497	#line 211 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	212	497		set __D0lab, 40
+16	212	500	#line 212 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	213	500	#pragma macro 7
+16	213	500		setout __OUT_AC, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	5999	523	#line 5999 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	212	523	#line 212 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	212	523	#line 212 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	213	523		set __Wait_7qG2_ms_7qG2_000_inline_lab, 50
+16	212	526	#line 212 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	526	#line 8551 "NXCDefs.h"
+16	8552	526		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	529	#line 8551 "NXCDefs.h"
+16	213	529	#line 213 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	215	529	#line 215 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	216	529		jmp __ASM_Label_791
+16	215	531	#line 215 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	215	531	#line 215 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	217	531	#line 217 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	218	531		set __lab_7qG2_a_7qG2_000, 0
+16	217	534	#line 217 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	217	534	#line 217 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	219	534	#line 219 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	220	534		jmp __ASM_Label_802
+16	220	536	#line 220 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	221	536		add __lab_7qG2_a_7qG2_000, __lab_7qG2_a_7qG2_000, __constVal1
+16	220	540	#line 220 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	220	540	#line 220 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	221	540	#line 221 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	222	540		jmp __ASM_Label_722
+16	221	542	#line 221 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	221	542	#line 221 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	222	542		mov __D0lab, __constValNeg40
+16	222	544	#line 222 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	223	544	#pragma macro 7
+16	223	544		setout __OUT_AC, 2, __D0lab, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+16	6035	567	#line 6035 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	222	567	#line 222 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	222	567	#line 222 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	223	567		set __Wait_7qG2_ms_7qG2_000_inline_lab, 800
+16	222	570	#line 222 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	8551	570	#line 8551 "NXCDefs.h"
+16	8552	570		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_lab
+16	8551	573	#line 8551 "NXCDefs.h"
+16	223	573	#line 223 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	224	573	#line 224 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	225	573		release semaphor
+16	224	574	#line 224 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	225	574	#line 225 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	226	574		exitto searchspace
+16	225	576	#line 225 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+16	226	576		exit -1, -1
+17	229	0	#line 229 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	230	0		set parkingSpace, 0
+17	229	3	#line 229 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	229	3	#line 229 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	229	3	#line 229 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	230	3		set __D0searchMaze, 1
+17	230	6	#line 230 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	6		tst 5, __D0searchMaze, __D0searchMaze
+17	230	9	#line 230 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	9		brtst 4, __ASM_Label_810, __D0searchMaze
+17	230	12	#line 230 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	12		getin __signed_stack_001searchMaze, __constVal1, 4
+17	230	16	#line 230 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	230	16	#line 230 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	16		set __D0searchMaze, 3
+17	230	19	#line 230 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	19		cmp 4, __D0searchMaze, __signed_stack_001searchMaze, __D0searchMaze
+17	231	23	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	232	23		brtst 4, __ASM_Label_815, __D0searchMaze
+17	231	26	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	232	26		set __signed_stack_001searchMaze, 0
+17	231	29	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	29	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	232	29		set __signed_stack_002searchMaze, 56
+17	231	32	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	32	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	232	32		mov __signed_stack_003searchMaze, parkingSpace
+17	231	34	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	34	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	34	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	232	34		div __float_stack_003searchMaze, __signed_stack_003searchMaze, __constValf25P2
+17	231	38	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	231	38	#line 231 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	232	38		mov __DF0searchMaze, __constVal0
+17	232	41	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	41		acquire __TextOutMutex
+17	232	42	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	42		mov __TextOutArgs.Location.X, __signed_stack_001searchMaze
+17	232	45	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	45		mov __TextOutArgs.Location.Y, __signed_stack_002searchMaze
+17	232	48	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	48		mov __TextOutArgs.Options, __DF0searchMaze
+17	232	51	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	51		numtostr __TextOutArgs.Text, __float_stack_003searchMaze
+17	232	54	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	54		syscall 13, __TextOutArgs
+17	232	57	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	57		mov __D0searchMaze, __TextOutArgs.Result
+17	232	60	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	60		release __TextOutMutex
+17	232	61	#line 232 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	61	#line 233 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	234	61		acquire semaphor
+17	233	62	#line 233 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	233	62	#line 233 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	234	62		mov __D0searchMaze, __constValNeg60
+17	234	64	#line 234 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	235	64	#pragma macro 7
+17	235	64		setout __OUT_AC, 2, __D0searchMaze, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+17	6133	87	#line 6133 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	234	87	#line 234 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	234	87	#line 234 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	235	87		set __Wait_7qG2_ms_7qG2_000_inline_searchMaze, 200
+17	234	90	#line 234 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	8551	90	#line 8551 "NXCDefs.h"
+17	8552	90		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_searchMaze
+17	8551	93	#line 8551 "NXCDefs.h"
+17	235	93	#line 235 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	236	93	#line 236 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	237	93		exitto lab
+17	236	95	#line 236 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	237	95	#line 237 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	237	95	#line 237 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	238	95		set __Wait_7qG2_ms_7qG2_000_inline_searchMaze, 50
+17	237	98	#line 237 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	8551	98	#line 8551 "NXCDefs.h"
+17	8552	98		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_searchMaze
+17	8551	101	#line 8551 "NXCDefs.h"
+17	238	101	#line 238 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	242	101	#line 242 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	243	101		jmp __ASM_Label_809
+17	242	103	#line 242 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+17	243	103		exit -1, -1
+18	254	0	#line 254 "C:\Users\zihbo\Desktop\nxc\exam.nxc"
+18	255	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\zihbo\Desktop\nxc\exam.nxc
+1	__RotateMotor0	127	NXTDefs.h
+2	__RotateMotor2	296	NXTDefs.h
+3	__ResetSensorSubroutine	465	NXTDefs.h
+4	__ReadLSBytes0	478	NXTDefs.h
+5	__ReadLSBytes2	564	NXTDefs.h
+6	checksensor	650	C:\Users\zihbo\Desktop\nxc\exam.nxc
+7	move	1206	C:\Users\zihbo\Desktop\nxc\exam.nxc
+8	__checksensor_Returner	1281	C:\Users\zihbo\Desktop\nxc\exam.nxc
+9	__checksensor_Spawner	1283	C:\Users\zihbo\Desktop\nxc\exam.nxc
+10	moveAfterBox	1286	C:\Users\zihbo\Desktop\nxc\exam.nxc
+11	Right	1418	C:\Users\zihbo\Desktop\nxc\exam.nxc
+12	parking	1501	C:\Users\zihbo\Desktop\nxc\exam.nxc
+13	Rev	1641	C:\Users\zihbo\Desktop\nxc\exam.nxc
+14	exiting	1734	C:\Users\zihbo\Desktop\nxc\exam.nxc
+15	searchspace	1841	C:\Users\zihbo\Desktop\nxc\exam.nxc
+16	lab	1942	C:\Users\zihbo\Desktop\nxc\exam.nxc
+17	searchMaze	2521	C:\Users\zihbo\Desktop\nxc\exam.nxc
+18	__initialize_global_data	2627	C:\Users\zihbo\Desktop\nxc\exam.nxc

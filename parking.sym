@@ -1,0 +1,1008 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0move	6	1	0	4	6
+1	__DU0move	5	1	4	4	2
+2	__DU0checksensor	5	1	8	4	2
+3	__D0exiting	6	1	12	4	6
+4	__D0searchspace	6	1	16	4	21
+5	__DF0searchspace	10	1	20	4	2
+6	__D0parking	6	1	24	4	10
+7	__D0Rev	6	1	28	4	22
+8	__CLSWMutex0	9	0	32	4	2
+9	__CLSRMutex0	9	0	36	4	2
+10	__rotate_theAngle2	5	1	40	4	2
+11	__CLSCSMutex0	9	0	44	4	2
+12	__Wait_7qG2_ms_7qG2_000_inline_searchspace	5	1	48	4	2
+13	__D0checksensor	6	1	52	4	58
+14	__TextOutMutex	9	0	56	4	6
+15	__RLSBmutex0	9	0	60	4	4
+16	__D0SetSensorLowspeed_inline_main	6	1	64	4	2
+17	semaphor	9	0	68	4	6
+18	__Wait_7qG2_ms_7qG2_000_inline_move	5	1	72	4	2
+19	__signed_stack_002searchspace	6	1	76	4	2
+20	__signed_stack_003searchspace	6	1	80	4	2
+21	__Wait_7qG2_ms_7qG2_000_inline_Rev	5	1	84	4	2
+22	__Wait_7qG2_ms_7qG2_000_inline_exiting	5	1	88	4	2
+23	__Wait_7qG2_ms_7qG2_000_inline_checksensor	5	1	92	4	8
+24	__Wait_7qG2_ms_7qG2_000_inline_parking	5	1	96	4	2
+25	__signed_stack_001exiting	6	1	100	4	2
+26	__signed_stack_001parking	6	1	104	4	6
+27	__DU0SetSensorLowspeed_inline_main	5	1	108	4	5
+28	__signed_stack_001checksensor	6	1	112	4	20
+29	__signed_stack_003Rev	6	1	116	4	6
+30	__signed_stack_001searchspace	6	1	120	4	8
+31	__signed_stack_001Rev	6	1	124	4	10
+32	__signed_stack_002Rev	6	1	128	4	6
+33	__OnRevMutex	9	0	132	4	4
+34	__rotate_angle0	6	1	136	4	5
+35	__rotate_angle2	6	1	140	4	5
+36	__rotate_theAngle0	5	1	144	4	2
+37	__checksensor_7qG2_a_7qG2_001	4	1	148	2	7
+38	__checksensor_7qG2_j_7qG2_001	4	1	150	2	16
+39	__rotate_RotCount0	4	1	152	2	4
+40	__rotate_OldRotCount0	4	1	154	2	2
+41	parkingSpace	4	1	156	2	6
+42	__rotate_RotCount2	4	1	158	2	4
+43	__Rev_7qG2_t_7qG2_000	4	1	160	2	3
+44	__Rev_7qG2_avg_7qG2_000	4	1	162	2	4
+45	__rotate_OldRotCount2	4	1	164	2	2
+46	__constVal630	4	0	166	2	1
+47	__rotate_theRVI0	1	1	168	1	2
+48	__rotate_theRVD0	1	1	169	1	2
+49	__rotate_theOM0	1	1	170	1	7
+50	__rotate_theRS0	1	1	171	1	3
+51	__rotate_theRM0	1	1	172	1	4
+52	__rotate_theRVP0	1	1	173	1	2
+53	__rotate_rs0	1	1	174	1	2
+54	__rotate_theTurnPct0	2	1	175	1	4
+55	__rotate_power2	1	1	176	1	4
+56	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	177	1	2
+57	__OnRev_Tmp	2	1	178	1	4
+58	__rotate_thePower0	2	1	179	1	4
+59	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	180	1	4
+60	__rotate_theUF0	1	1	181	1	6
+61	__constValNeg20	2	0	182	1	4
+62	__constVal63	2	0	183	1	12
+63	__constVal96	2	0	184	1	14
+64	__rotate_power0	1	1	185	1	4
+65	__constValNeg90	2	0	186	1	1
+66	__constValNeg30	2	0	187	1	3
+67	__parking_return	1	1	188	1	3
+68	__constValNeg40	2	0	189	1	3
+69	__rotate_sync0	1	1	190	1	2
+70	__rotate_stop0	1	1	191	1	2
+71	__rotate_turnpct0	2	1	192	1	3
+72	__rotate_firstPort0	1	1	193	1	5
+73	searching	1	0	194	1	3
+74	__Rev_return	1	1	195	1	3
+75	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	196	1	2
+76	__constVal15	2	0	197	1	4
+77	__constVal50	2	0	198	1	2
+78	____RotateMotor2_return	1	1	199	1	3
+79	__constVal0	2	1	200	1	58
+80	__constVal32	2	0	201	1	45
+81	__constVal1	2	0	202	1	23
+82	__ResetSensorTmp	1	1	203	1	2
+83	____ResetSensorSubroutine_return	1	1	204	1	5
+84	__ResetSensorPort	1	1	205	1	5
+85	____RotateMotor2_sign_tmp	2	1	206	1	4
+86	__constVal3	2	0	207	1	13
+87	__rotate_theRVD2	1	1	208	1	2
+88	__rotate_rs2	1	1	209	1	2
+89	__rotate_theRVI2	1	1	210	1	2
+90	__rotate_theRS2	1	1	211	1	3
+91	__rotate_theRVP2	1	1	212	1	2
+92	____RotateMotor0_return	1	1	213	1	3
+93	____RotateMotor0_sign_tmp	2	1	214	1	4
+94	__rotate_theTurnPct2	2	1	215	1	4
+95	__rotate_thePower2	2	1	216	1	4
+96	__rotate_theRM2	1	1	217	1	4
+97	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	218	1	2
+98	__RLSBytesCount0	1	1	219	1	8
+99	__RLSBIterations0	1	1	220	1	4
+100	__RLSBResult0	2	1	221	1	7
+101	__rotate_sync2	1	1	222	1	2
+102	____initialize_global_data_return	1	1	223	1	3
+103	__PFTmp	1	1	224	1	1
+104	__constVal8	2	0	225	1	3
+105	__constVal13	2	0	226	1	1
+106	__rotate_firstPort2	1	1	227	1	5
+107	__constVal2	2	0	228	1	6
+108	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	229	1	2
+109	__rotate_turnpct2	2	1	230	1	3
+110	__rotate_theUF2	1	1	231	1	6
+111	__rotate_theOM2	1	1	232	1	7
+112	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	233	1	2
+113	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	234	1	4
+114	____ReadLSBytes0_return	1	1	235	1	4
+115	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	236	1	4
+116	__LSWriteOptions0	1	1	237	1	1
+117	__rotate_stop2	1	1	238	1	2
+118	__CLSRArgs0	8	0	4	12	5
+119	__CLSRArgs0.Result	2	1	240	1	5
+120	__CLSRArgs0.Port	1	1	241	1	5
+121	__CLSRArgs0.Buffer	7	0	242	4	5
+122	__CLSRArgs0.Buffer.Buffer_type	1	0	0	1	0
+123	__CLSRArgs0.BufferLen	1	1	244	1	5
+124	__CLSWArgs0	8	0	4	12	5
+125	__CLSWArgs0.Result	2	1	248	1	5
+126	__CLSWArgs0.Port	1	1	249	1	5
+127	__CLSWArgs0.Buffer	7	0	250	4	5
+128	__CLSWArgs0.Buffer.Buffer_type	1	0	0	1	0
+129	__CLSWArgs0.ReturnLen	1	1	252	1	5
+130	__CLSCSArgs0	8	0	3	4	4
+131	__CLSCSArgs0.Result	2	1	256	1	4
+132	__CLSCSArgs0.Port	1	1	257	1	4
+133	__CLSCSArgs0.BytesReady	1	1	258	1	4
+134	__TextOutArgs	8	0	4	16	18
+135	__TextOutArgs.Result	2	1	260	1	18
+136	__TextOutArgs.Location	8	0	2	4	18
+137	__TextOutArgs.Location.X	4	1	264	2	18
+138	__TextOutArgs.Location.Y	4	1	266	2	18
+139	__TextOutArgs.Text	7	0	268	4	18
+140	__TextOutArgs.Text.Text_type	1	0	0	1	0
+141	__TextOutArgs.Options	5	1	272	4	18
+142	__rotate_ports2	7	0	276	4	6
+143	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+144	__rotate_ports0	7	0	278	4	6
+145	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+146	__OUT_AC	7	0	280	4	7
+147	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+148	__RLSBbufLSWrite1	7	0	282	4	2
+149	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+150	__RLSLastGoodRead0	7	0	284	4	2
+151	__RLSLastGoodRead0.__RLSLastGoodRead0_type	1	0	0	1	0
+152	__RLSReadBuf0	7	0	286	4	10
+153	__RLSReadBuf0.__RLSReadBuf0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	128	0	#line 128 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	129	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	128	2	#line 128 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	128	2	#line 128 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	129	2		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
+0	128	5	#line 128 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	4302	5	#line 4302 "NXCDefs.h"
+0	4303	5	#pragma macro 6
+0	4303	5		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	4303	9		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	4303	13		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	4303	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5229	17	#line 5229 "NXCDefs.h"
+0	4302	17	#line 4302 "NXCDefs.h"
+0	129	17	#line 129 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	129	17	#line 129 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	130	17		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 0
+0	129	20	#line 129 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	130	20	#line 130 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	131	20		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	22	#line 4342 "NXCDefs.h"
+0	4343	22		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	24	#line 4342 "NXCDefs.h"
+0	4342	24	#line 4342 "NXCDefs.h"
+0	4343	24		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	26	#line 4342 "NXCDefs.h"
+0	4343	26		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	29	#line 4342 "NXCDefs.h"
+0	4343	29		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	32	#line 4342 "NXCDefs.h"
+0	4343	32		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	35	#line 4342 "NXCDefs.h"
+0	4342	35	#line 4342 "NXCDefs.h"
+0	4343	35		jmp __004__ASM_Label_37
+0	4342	37	#line 4342 "NXCDefs.h"
+0	4343	37		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	40	#line 4342 "NXCDefs.h"
+0	4342	40	#line 4342 "NXCDefs.h"
+0	4343	40		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	42	#line 4247 "NXCDefs.h"
+0	4248	42		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	46	#line 4247 "NXCDefs.h"
+0	4343	46	#line 4343 "NXCDefs.h"
+0	4343	46	#line 4343 "NXCDefs.h"
+0	4344	46		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	48	#line 4343 "NXCDefs.h"
+0	4343	48	#line 4343 "NXCDefs.h"
+0	4344	48		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	51	#line 4343 "NXCDefs.h"
+0	4260	51	#line 4260 "NXCDefs.h"
+0	4261	51		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	55	#line 4260 "NXCDefs.h"
+0	4344	55	#line 4344 "NXCDefs.h"
+0	4344	55	#line 4344 "NXCDefs.h"
+0	4344	55	#line 4344 "NXCDefs.h"
+0	4278	55	#line 4278 "NXCDefs.h"
+0	4279	55	#pragma macro 4
+0	4279	55		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	57		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5319	59	#line 5319 "NXCDefs.h"
+0	4278	59	#line 4278 "NXCDefs.h"
+0	4345	59	#line 4345 "NXCDefs.h"
+0	130	59	#line 130 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	130	59	#line 130 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	131	59		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	130	62	#line 130 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	4386	62	#line 4386 "NXCDefs.h"
+0	4387	62	#pragma macro 6
+0	4387	62		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	4387	66		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	4387	70		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	4387	72		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5332	74	#line 5332 "NXCDefs.h"
+0	4386	74	#line 4386 "NXCDefs.h"
+0	131	74	#line 131 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	132	74	#line 132 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	132	74	#line 132 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+0	133	74		exit 0, 2
+1	5067	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	5068	3		set ____RotateMotor0_sign_tmp, 0
+1	5068	6		brtst EQ, __sign_0, __rotate_angle0
+1	5068	9		set ____RotateMotor0_sign_tmp, -1
+1	5068	12		brtst LT, __sign_0, __rotate_angle0
+1	5068	15		set ____RotateMotor0_sign_tmp, 1
+1	5068	18	__sign_0:	mov __rotate_thePower0, ____RotateMotor0_sign_tmp
+1	5069	20		abs __rotate_theAngle0, __rotate_angle0
+1	5070	23		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	5072	27		set __rotate_theUF0, 23
+1	5073	30		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	5074	33		set __rotate_theOM0, 7
+1	5075	36		set __rotate_theRM0, 2
+1	5076	39		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	5077	41		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	5078	44		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	5079	48		jmp __rotate_Start0
+1	5081	50		set __rotate_theOM0, 3
+1	5082	53		set __rotate_theRM0, 0
+1	5083	56		set __rotate_theTurnPct0, 0
+1	5085	59		set __rotate_theRS0, 32
+1	5086	62		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	5089	85		index __rotate_firstPort0, __rotate_ports0, 65535
+1	5091	89		getout __rotate_power0, __rotate_firstPort0, 2
+1	5092	93		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	5093	96		getout __rotate_rs0, __rotate_firstPort0, 6
+1	5094	100		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	5096	104		brtst 4, __rotate_Reset0, __rotate_stop0
+1	5098	107		set __rotate_theOM0, 7
+1	5099	110		set __rotate_theUF0, 7
+1	5100	113		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	5102	128		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	5104	132		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	5105	134		wait2 NA, __constVal50
+1	5107	137		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	5108	141		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	5109	145		set __rotate_theOM0, 4
+1	5110	148		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	5113	159		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	5114	162		setout __rotate_ports0, 0, __constVal32
+1	5116	167		subret ____RotateMotor0_return
+2	5173	0		brtst 4, __rotate_Done2, __rotate_angle2
+2	5174	3		set ____RotateMotor2_sign_tmp, 0
+2	5174	6		brtst EQ, __sign_2, __rotate_angle2
+2	5174	9		set ____RotateMotor2_sign_tmp, -1
+2	5174	12		brtst LT, __sign_2, __rotate_angle2
+2	5174	15		set ____RotateMotor2_sign_tmp, 1
+2	5174	18	__sign_2:	mov __rotate_thePower2, ____RotateMotor2_sign_tmp
+2	5175	20		abs __rotate_theAngle2, __rotate_angle2
+2	5176	23		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+2	5178	27		set __rotate_theUF2, 23
+2	5179	30		brtst 4, __rotate_NoSync2, __rotate_sync2
+2	5180	33		set __rotate_theOM2, 7
+2	5181	36		set __rotate_theRM2, 2
+2	5182	39		mov __rotate_theTurnPct2, __rotate_turnpct2
+2	5183	41		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+2	5184	44		add __rotate_theUF2, __rotate_theUF2, __constVal32
+2	5185	48		jmp __rotate_Start2
+2	5187	50		set __rotate_theOM2, 3
+2	5188	53		set __rotate_theRM2, 0
+2	5189	56		set __rotate_theTurnPct2, 0
+2	5191	59		set __rotate_theRS2, 32
+2	5192	62		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+2	5195	85		index __rotate_firstPort2, __rotate_ports2, 65535
+2	5197	89		getout __rotate_power2, __rotate_firstPort2, 2
+2	5198	93		brtst 4, __rotate_doneRunning2, __rotate_power2
+2	5199	96		getout __rotate_rs2, __rotate_firstPort2, 6
+2	5200	100		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+2	5202	104		brtst 4, __rotate_Reset2, __rotate_stop2
+2	5204	107		set __rotate_theOM2, 7
+2	5205	110		set __rotate_theUF2, 7
+2	5206	113		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+2	5208	128		getout __rotate_RotCount2, __rotate_firstPort2, 14
+2	5210	132		mov __rotate_OldRotCount2, __rotate_RotCount2
+2	5211	134		wait2 NA, __constVal50
+2	5213	137		getout __rotate_RotCount2, __rotate_firstPort2, 14
+2	5214	141		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+2	5215	145		set __rotate_theOM2, 4
+2	5216	148		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+2	5219	159		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+2	5220	162		setout __rotate_ports2, 0, __constVal32
+2	5222	167		subret ____RotateMotor2_return
+3	5476	0		setin __constVal1, __ResetSensorPort, 5
+3	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	5480	11		subret ____ResetSensorSubroutine_return
+4	6281	0	#pragma macro 25
+4	6281	0		acquire __CLSWMutex0
+4	6281	1		or __CLSWArgs0.Port, __constVal0, __LSWriteOptions0
+4	6281	5		mov __CLSWArgs0.ReturnLen, __RLSBytesCount0
+4	6281	7		mov __CLSWArgs0.Buffer, __RLSReadBuf0
+4	6281	9		syscall 21, __CLSWArgs0
+4	6281	12		mov __RLSBResult0, __CLSWArgs0.Result
+4	6281	14		release __CLSWMutex0
+4	6282	15	#line 6282 "NXTDefs.h"
+4	6283	15		brtst 5, __RLSBError0, __RLSBResult0
+4	6284	18		set __RLSBIterations0, 60
+4	6286	21	#pragma macro 23
+4	6286	21		acquire __CLSCSMutex0
+4	6286	22		set __CLSCSArgs0.Port, 0
+4	6286	25		syscall 23, __CLSCSArgs0
+4	6286	28		mov __RLSBytesCount0, __CLSCSArgs0.BytesReady
+4	6286	30		mov __RLSBResult0, __CLSCSArgs0.Result
+4	6286	32		release __CLSCSMutex0
+4	6286	33	#line 6286 "NXTDefs.h"
+4	6287	33		sub __RLSBIterations0, __RLSBIterations0, __constVal1
+4	6288	37		brtst 2, __RLSBError0, __RLSBIterations0
+4	6289	40		brtst 0, __RLSBError0, __RLSBResult0
+4	6290	43		brtst 4, __RLSBReadyToRead0, __RLSBResult0
+4	6292	46		wait2 NA, __constVal1
+4	6293	49		jmp __RLSBDoCheckStatus0
+4	6295	51		brtst 4, __RLSBReturn0, __RLSBytesCount0
+4	6296	54		arrinit __RLSReadBuf0, __constVal0, __RLSBytesCount0
+4	6298	58	#pragma macro 25
+4	6298	58		acquire __CLSRMutex0
+4	6298	59		set __CLSRArgs0.Port, 0
+4	6298	62		mov __CLSRArgs0.BufferLen, __RLSBytesCount0
+4	6298	64		syscall 22, __CLSRArgs0
+4	6298	67		mov __RLSReadBuf0, __CLSRArgs0.Buffer
+4	6298	69		mov __RLSBResult0, __CLSRArgs0.Result
+4	6298	71		release __CLSRMutex0
+4	6298	72	#line 6298 "NXTDefs.h"
+4	6299	72		brtst 5, __RLSBError0, __RLSBResult0
+4	6300	75		mov __RLSLastGoodRead0, __RLSReadBuf0
+4	6301	77		jmp __RLSBDone0
+4	6303	79		mov __RLSReadBuf0, __RLSLastGoodRead0
+4	6305	81		arrsize __RLSBytesCount0, __RLSReadBuf0
+4	6307	84		subret ____ReadLSBytes0_return
+5	10	0	#line 10 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	11	0		mov __DU0move, searching
+5	11	2	#line 11 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	12	2		tst 5, __D0move, __DU0move
+5	11	5	#line 11 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	12	5		brtst 4, __ASM_Label_490, __D0move
+5	12	8	#line 12 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	13	8		acquire semaphor
+5	12	9	#line 12 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	13	9	#line 13 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	14	9	#pragma macro 7
+5	14	9		setout __OUT_AC, 0, __constVal8
+5	4304	14	#line 4304 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	13	14	#line 13 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	13	14	#line 13 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	14	14		mov __D0move, __constValNeg40
+5	14	16	#line 14 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	15	16	#pragma macro 7
+5	15	16		setout __OUT_AC, 2, __D0move, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4309	39	#line 4309 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	14	39	#line 14 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	14	39	#line 14 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	15	39		set __Wait_7qG2_ms_7qG2_000_inline_move, 100
+5	14	42	#line 14 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	8551	42	#line 8551 "NXCDefs.h"
+5	8552	42		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move
+5	8551	45	#line 8551 "NXCDefs.h"
+5	15	45	#line 15 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	16	45	#line 16 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	17	45		getout __D0move, __constVal0, 4
+5	16	49	#line 16 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	17	49		sub parkingSpace, parkingSpace, __D0move
+5	16	53	#line 16 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	18	53	#line 18 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	19	53		release semaphor
+5	18	54	#line 18 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	22	54	#line 22 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	23	54		jmp __ASM_Label_489
+5	22	56	#line 22 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+5	23	56		exit -1, -1
+6	23	0	#line 23 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	24	0		mov __DU0checksensor, searching
+6	24	2	#line 24 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	25	2		tst 5, __D0checksensor, __DU0checksensor
+6	24	5	#line 24 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	25	5		brtst 4, __ASM_Label_500, __D0checksensor
+6	25	8	#line 25 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	26	8		set __checksensor_7qG2_a_7qG2_001, 2
+6	25	11	#line 25 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	26	11	#line 26 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	27	11		getin __signed_stack_001checksensor, __constVal1, 4
+6	26	15	#line 26 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	26	15	#line 26 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	27	15		set __D0checksensor, 1
+6	26	18	#line 26 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	27	18		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	27	22	#line 27 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	28	22		brtst 4, __ASM_Label_507, __D0checksensor
+6	28	25	#line 28 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	29	25		acquire semaphor
+6	28	26	#line 28 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	28	26	#line 28 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	29	26		getin __signed_stack_001checksensor, __constVal1, 4
+6	28	30	#line 28 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	28	30	#line 28 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	29	30		set __D0checksensor, 1
+6	28	33	#line 28 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	29	33		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	29	37	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	37		brtst 4, __ASM_Label_509, __D0checksensor
+6	29	40	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	40		set __checksensor_7qG2_j_7qG2_001, 0
+6	29	43	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	29	43	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	43		getin __signed_stack_001checksensor, __constVal1, 4
+6	29	47	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	29	47	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	47		set __D0checksensor, 1
+6	29	50	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	50		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	29	54	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	54		brtst 4, __ASM_Label_519, __D0checksensor
+6	29	57	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	57		mov __signed_stack_001checksensor, __checksensor_7qG2_j_7qG2_001
+6	29	59	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	29	59	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	59		mov __D0checksensor, __checksensor_7qG2_a_7qG2_001
+6	29	61	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	61		cmp 2, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	29	65	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	65		brtst 4, __ASM_Label_513, __D0checksensor
+6	29	68	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	68		jmp __ASM_Label_514
+6	29	70	#line 29 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	30	70		add __checksensor_7qG2_j_7qG2_001, __checksensor_7qG2_j_7qG2_001, __constVal1
+6	30	74	#line 30 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	31	74		jmp __ASM_Label_512
+6	30	76	#line 30 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	31	76		mov __D0checksensor, __constValNeg20
+6	31	78	#line 31 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	32	78	#pragma macro 7
+6	32	78		setout __constVal0, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4435	101	#line 4435 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	31	101	#line 31 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	31	101	#line 31 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	32	101		set __D0checksensor, 20
+6	32	104	#line 32 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	33	104	#pragma macro 7
+6	33	104		setout __constVal2, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4440	127	#line 4440 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	32	127	#line 32 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	32	127	#line 32 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	33	127		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 70
+6	32	130	#line 32 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	8551	130	#line 8551 "NXCDefs.h"
+6	8552	130		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	133	#line 8551 "NXCDefs.h"
+6	33	133	#line 33 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	34	133	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	133		jmp __ASM_Label_515
+6	34	135	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	34	135	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	135		set __checksensor_7qG2_j_7qG2_001, 0
+6	34	138	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	34	138	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	138		getin __signed_stack_001checksensor, __constVal1, 4
+6	34	142	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	34	142	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	142		set __D0checksensor, 1
+6	34	145	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	145		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	34	149	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	149		brtst 4, __ASM_Label_533, __D0checksensor
+6	34	152	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	152		mov __signed_stack_001checksensor, __checksensor_7qG2_j_7qG2_001
+6	34	154	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	34	154	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	154		mov __D0checksensor, __checksensor_7qG2_a_7qG2_001
+6	34	156	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	156		cmp 2, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	34	160	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	160		brtst 4, __ASM_Label_527, __D0checksensor
+6	34	163	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	163		jmp __ASM_Label_528
+6	34	165	#line 34 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	35	165		add __checksensor_7qG2_j_7qG2_001, __checksensor_7qG2_j_7qG2_001, __constVal1
+6	35	169	#line 35 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	36	169		jmp __ASM_Label_526
+6	35	171	#line 35 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	36	171		set __D0checksensor, 20
+6	36	174	#line 36 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	37	174	#pragma macro 7
+6	37	174		setout __constVal0, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4500	197	#line 4500 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	36	197	#line 36 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	36	197	#line 36 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	37	197		mov __D0checksensor, __constValNeg20
+6	37	199	#line 37 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	38	199	#pragma macro 7
+6	38	199		setout __constVal2, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4505	222	#line 4505 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	37	222	#line 37 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	37	222	#line 37 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	38	222		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 70
+6	37	225	#line 37 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	8551	225	#line 8551 "NXCDefs.h"
+6	8552	225		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	228	#line 8551 "NXCDefs.h"
+6	38	228	#line 38 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	39	228	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	228		jmp __ASM_Label_529
+6	39	230	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	39	230	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	230		set __checksensor_7qG2_j_7qG2_001, 0
+6	39	233	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	39	233	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	233		getin __signed_stack_001checksensor, __constVal1, 4
+6	39	237	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	39	237	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	237		set __D0checksensor, 1
+6	39	240	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	240		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	39	244	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	244		brtst 4, __ASM_Label_547, __D0checksensor
+6	39	247	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	247		mov __signed_stack_001checksensor, __checksensor_7qG2_j_7qG2_001
+6	39	249	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	39	249	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	249		mov __D0checksensor, __checksensor_7qG2_a_7qG2_001
+6	39	251	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	251		cmp 2, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	39	255	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	255		brtst 4, __ASM_Label_541, __D0checksensor
+6	39	258	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	258		jmp __ASM_Label_542
+6	39	260	#line 39 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	40	260		add __checksensor_7qG2_j_7qG2_001, __checksensor_7qG2_j_7qG2_001, __constVal1
+6	40	264	#line 40 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	41	264		jmp __ASM_Label_540
+6	40	266	#line 40 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	41	266		mov __D0checksensor, __constValNeg20
+6	41	268	#line 41 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	42	268	#pragma macro 7
+6	42	268		setout __constVal2, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4561	291	#line 4561 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	41	291	#line 41 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	41	291	#line 41 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	42	291		set __D0checksensor, 20
+6	42	294	#line 42 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	43	294	#pragma macro 7
+6	43	294		setout __constVal0, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4566	317	#line 4566 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	42	317	#line 42 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	42	317	#line 42 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	43	317		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 70
+6	42	320	#line 42 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	8551	320	#line 8551 "NXCDefs.h"
+6	8552	320		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	323	#line 8551 "NXCDefs.h"
+6	43	323	#line 43 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	44	323	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	323		jmp __ASM_Label_543
+6	44	325	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	44	325	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	325		set __checksensor_7qG2_j_7qG2_001, 0
+6	44	328	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	44	328	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	328		getin __signed_stack_001checksensor, __constVal1, 4
+6	44	332	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	44	332	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	332		set __D0checksensor, 1
+6	44	335	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	335		cmp 5, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	44	339	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	339		brtst 4, __ASM_Label_561, __D0checksensor
+6	44	342	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	342		mov __signed_stack_001checksensor, __checksensor_7qG2_j_7qG2_001
+6	44	344	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	44	344	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	344		mov __D0checksensor, __checksensor_7qG2_a_7qG2_001
+6	44	346	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	346		cmp 2, __D0checksensor, __signed_stack_001checksensor, __D0checksensor
+6	44	350	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	350		brtst 4, __ASM_Label_555, __D0checksensor
+6	44	353	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	353		jmp __ASM_Label_556
+6	44	355	#line 44 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	45	355		add __checksensor_7qG2_j_7qG2_001, __checksensor_7qG2_j_7qG2_001, __constVal1
+6	45	359	#line 45 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	46	359		jmp __ASM_Label_554
+6	45	361	#line 45 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	46	361		mov __D0checksensor, __constValNeg20
+6	46	363	#line 46 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	47	363	#pragma macro 7
+6	47	363		setout __constVal0, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4622	386	#line 4622 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	46	386	#line 46 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	46	386	#line 46 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	47	386		set __D0checksensor, 20
+6	47	389	#line 47 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	48	389	#pragma macro 7
+6	48	389		setout __constVal2, 2, __D0checksensor, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	4627	412	#line 4627 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	47	412	#line 47 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	47	412	#line 47 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	48	412		set __Wait_7qG2_ms_7qG2_000_inline_checksensor, 70
+6	47	415	#line 47 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	8551	415	#line 8551 "NXCDefs.h"
+6	8552	415		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_checksensor
+6	8551	418	#line 8551 "NXCDefs.h"
+6	48	418	#line 48 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	49	418	#line 49 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	50	418		jmp __ASM_Label_557
+6	49	420	#line 49 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	50	420	#line 50 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	51	420		add __checksensor_7qG2_a_7qG2_001, __checksensor_7qG2_a_7qG2_001, __constVal1
+6	50	424	#line 50 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	51	424	#line 51 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	52	424		jmp __ASM_Label_508
+6	51	426	#line 51 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	52	426	#line 52 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	53	426		release semaphor
+6	52	427	#line 52 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	54	427	#line 54 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	58	427	#line 58 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	59	427		jmp __ASM_Label_499
+6	58	429	#line 58 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+6	59	429		exit -1, -1
+7	74	0	#line 74 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	75	0		mov __signed_stack_001parking, __constValNeg30
+7	74	2	#line 74 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	74	2	#line 74 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	75	2		set __D0parking, 90
+7	75	5	#line 75 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	76	5	#pragma macro 33
+7	76	5		arrbuild __rotate_ports2, __constVal2
+7	76	9		mov __rotate_power2, __signed_stack_001parking
+7	76	11		mov __rotate_angle2, __D0parking
+7	76	13		mov __rotate_turnpct2, __constVal0
+7	76	15		mov __rotate_sync2, __constVal0
+7	76	17		mov __rotate_stop2, __constVal1
+7	76	19		mov __rotate_theRVP2, __constVal32
+7	76	21		mov __rotate_theRVI2, __constVal0
+7	76	23		mov __rotate_theRVD2, __constVal96
+7	76	25		subcall __RotateMotor2, ____RotateMotor2_return
+7	4800	27	#line 4800 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	75	27	#line 75 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	75	27	#line 75 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	76	27		mov __signed_stack_001parking, __constValNeg30
+7	75	29	#line 75 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	75	29	#line 75 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	76	29		mov __D0parking, __constValNeg90
+7	76	31	#line 76 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	77	31	#pragma macro 33
+7	77	31		arrbuild __rotate_ports0, __constVal0
+7	77	35		mov __rotate_power0, __signed_stack_001parking
+7	77	37		mov __rotate_angle0, __D0parking
+7	77	39		mov __rotate_turnpct0, __constVal0
+7	77	41		mov __rotate_sync0, __constVal0
+7	77	43		mov __rotate_stop0, __constVal1
+7	77	45		mov __rotate_theRVP0, __constVal32
+7	77	47		mov __rotate_theRVI0, __constVal0
+7	77	49		mov __rotate_theRVD0, __constVal96
+7	77	51		subcall __RotateMotor0, ____RotateMotor0_return
+7	4811	53	#line 4811 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	76	53	#line 76 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	76	53	#line 76 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	77	53		getin __signed_stack_001parking, __constVal3, 4
+7	76	57	#line 76 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	76	57	#line 76 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	77	57		set __D0parking, 1
+7	76	60	#line 76 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	77	60		cmp 5, __D0parking, __signed_stack_001parking, __D0parking
+7	77	64	#line 77 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	78	64		brtst 4, __ASM_Label_605, __D0parking
+7	77	67	#line 77 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	78	67		mov __D0parking, __constValNeg30
+7	83	69	#line 83 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	84	69	#pragma macro 10
+7	84	69		acquire __OnRevMutex
+7	84	70		neg __OnRev_Tmp, __D0parking
+7	84	73		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	84	96		release __OnRevMutex
+7	4832	97	#line 4832 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	83	97	#line 83 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	83	97	#line 83 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	84	97		set __Wait_7qG2_ms_7qG2_000_inline_parking, 50
+7	83	100	#line 83 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	8551	100	#line 8551 "NXCDefs.h"
+7	8552	100		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_parking
+7	8551	103	#line 8551 "NXCDefs.h"
+7	84	103	#line 84 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	87	103	#line 87 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	88	103		jmp __ASM_Label_604
+7	87	105	#line 87 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	87	105	#line 87 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+7	88	105		subret __parking_return
+8	89	0	#line 89 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	90	0		acquire semaphor
+8	89	1	#line 89 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	90	1	#line 90 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	91	1	#pragma macro 7
+8	91	1		setout __OUT_AC, 0, __constVal8
+8	4863	6	#line 4863 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	90	6	#line 90 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	91	6	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	92	6		set __signed_stack_001Rev, 0
+8	91	9	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	91	9	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	92	9		set __signed_stack_002Rev, 40
+8	91	12	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	91	12	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	92	12		mov __signed_stack_003Rev, __Rev_7qG2_t_7qG2_000
+8	91	14	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	91	14	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	92	14		set __D0Rev, 2
+8	91	17	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	92	17		div __signed_stack_003Rev, __signed_stack_003Rev, __D0Rev
+8	91	21	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	91	21	#line 91 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	92	21		set __D0Rev, 0
+8	92	24	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	93	24		acquire __TextOutMutex
+8	92	25	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	93	25		mov __TextOutArgs.Location.X, __signed_stack_001Rev
+8	92	27	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	93	27		mov __TextOutArgs.Location.Y, __signed_stack_002Rev
+8	92	29	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	93	29		mov __TextOutArgs.Options, __D0Rev
+8	92	32	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	93	32		numtostr __TextOutArgs.Text, __signed_stack_003Rev
+8	92	35	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	93	35		syscall 13, __TextOutArgs
+8	92	38	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	93	38		mov __D0Rev, __TextOutArgs.Result
+8	92	40	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	93	40		release __TextOutMutex
+8	92	41	#line 92 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	94	41	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	95	41	#pragma macro 7
+8	95	41		setout __OUT_AC, 0, __constVal8
+8	4918	46	#line 4918 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	94	46	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	94	46	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	95	46		set __signed_stack_001Rev, 0
+8	94	49	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	94	49	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	95	49		set __signed_stack_002Rev, 48
+8	94	52	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	94	52	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	95	52		mov __signed_stack_003Rev, __Rev_7qG2_avg_7qG2_000
+8	94	54	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	94	54	#line 94 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	95	54		set __D0Rev, 0
+8	95	57	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	57		acquire __TextOutMutex
+8	95	58	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	58		mov __TextOutArgs.Location.X, __signed_stack_001Rev
+8	95	60	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	60		mov __TextOutArgs.Location.Y, __signed_stack_002Rev
+8	95	62	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	62		mov __TextOutArgs.Options, __D0Rev
+8	95	65	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	65		numtostr __TextOutArgs.Text, __signed_stack_003Rev
+8	95	68	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	68		syscall 13, __TextOutArgs
+8	95	71	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	71		mov __D0Rev, __TextOutArgs.Result
+8	95	73	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	73		release __TextOutMutex
+8	95	74	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	95	74	#line 95 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	74		mov __D0Rev, __constValNeg40
+8	96	76	#line 96 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	97	76	#pragma macro 10
+8	97	76		acquire __OnRevMutex
+8	97	77		neg __OnRev_Tmp, __D0Rev
+8	97	80		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	97	103		release __OnRevMutex
+8	4962	104	#line 4962 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	104	#line 96 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	96	104	#line 96 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	97	104		set __Wait_7qG2_ms_7qG2_000_inline_Rev, 50
+8	96	107	#line 96 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	8551	107	#line 8551 "NXCDefs.h"
+8	8552	107		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Rev
+8	8551	110	#line 8551 "NXCDefs.h"
+8	97	110	#line 97 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	97	110	#line 97 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	98	110		getout __signed_stack_001Rev, __constVal0, 4
+8	97	114	#line 97 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	97	114	#line 97 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	98	114		getout __D0Rev, __constVal2, 4
+8	97	118	#line 97 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	98	118		add __signed_stack_001Rev, __signed_stack_001Rev, __D0Rev
+8	97	122	#line 97 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	98	122	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	122		set __D0Rev, 2
+8	98	125	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	125		div __D0Rev, __signed_stack_001Rev, __D0Rev
+8	98	129	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	129		add __Rev_7qG2_avg_7qG2_000, __Rev_7qG2_avg_7qG2_000, __D0Rev
+8	98	133	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	98	133	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	133		mov __signed_stack_001Rev, __Rev_7qG2_avg_7qG2_000
+8	98	135	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	98	135	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	135		mov __signed_stack_002Rev, __Rev_7qG2_t_7qG2_000
+8	98	137	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	98	137	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	137		set __D0Rev, 3
+8	98	140	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	140		div __D0Rev, __signed_stack_002Rev, __D0Rev
+8	98	144	#line 98 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	144		cmp 2, __D0Rev, __signed_stack_001Rev, __D0Rev
+8	99	148	#line 99 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	100	148		brtst 4, __ASM_Label_621, __D0Rev
+8	99	151	#line 99 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	100	151		jmp __ASM_Label_620
+8	99	153	#line 99 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	99	153	#line 99 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	100	153	#line 100 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	101	153		subcall parking, __parking_return
+8	100	155	#line 100 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	101	155	#line 101 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	102	155		release semaphor
+8	101	156	#line 101 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	103	156	#line 103 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+8	104	156		subret __Rev_return
+9	104	0	#line 104 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	105	0		getin __signed_stack_001exiting, __constVal1, 4
+9	104	4	#line 104 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	104	4	#line 104 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	105	4		set __D0exiting, 1
+9	104	7	#line 104 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	105	7		cmp 5, __D0exiting, __signed_stack_001exiting, __D0exiting
+9	105	11	#line 105 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	106	11		brtst 4, __ASM_Label_641, __D0exiting
+9	105	14	#line 105 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	106	14		mov __D0exiting, __constValNeg40
+9	106	16	#line 106 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	107	16	#pragma macro 7
+9	107	16		setout __OUT_AC, 2, __D0exiting, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+9	5057	39	#line 5057 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	106	39	#line 106 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	106	39	#line 106 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	107	39		set __Wait_7qG2_ms_7qG2_000_inline_exiting, 100
+9	106	42	#line 106 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	8551	42	#line 8551 "NXCDefs.h"
+9	8552	42		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_exiting
+9	8551	45	#line 8551 "NXCDefs.h"
+9	107	45	#line 107 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	109	45	#line 109 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	110	45		jmp __ASM_Label_640
+9	109	47	#line 109 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+9	110	47		exit -1, -1
+10	110	0	#line 110 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	111	0		set __D0searchspace, 1
+10	111	3	#line 111 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	112	3		tst 5, __D0searchspace, __D0searchspace
+10	111	6	#line 111 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	112	6		brtst 4, __ASM_Label_649, __D0searchspace
+10	112	9	#line 112 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	113	9		set parkingSpace, 0
+10	112	12	#line 112 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	112	12	#line 112 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	112	12	#line 112 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	113	12	#pragma macro 26
+10	113	12		acquire __RLSBmutex0
+10	113	13		mov __RLSReadBuf0, __RLSBbufLSWrite1
+10	113	15		set __RLSBytesCount0, 1
+10	113	18		wait2 NA, __constVal15
+10	113	21		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+10	113	23		index __D0searchspace, __RLSReadBuf0, 65535
+10	113	27		release __RLSBmutex0
+10	5091	28	#line 5091 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	112	28	#line 112 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	113	28		mov __signed_stack_001searchspace, __D0searchspace
+10	112	30	#line 112 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	113	30		set __D0searchspace, 10
+10	112	33	#line 112 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	113	33		cmp 3, __D0searchspace, __signed_stack_001searchspace, __D0searchspace
+10	113	37	#line 113 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	114	37		brtst 4, __ASM_Label_656, __D0searchspace
+10	113	40	#line 113 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	114	40	#pragma macro 26
+10	114	40		acquire __RLSBmutex0
+10	114	41		mov __RLSReadBuf0, __RLSBbufLSWrite1
+10	114	43		set __RLSBytesCount0, 1
+10	114	46		wait2 NA, __constVal15
+10	114	49		subcall __ReadLSBytes0, ____ReadLSBytes0_return
+10	114	51		index __D0searchspace, __RLSReadBuf0, 65535
+10	114	55		release __RLSBmutex0
+10	5106	56	#line 5106 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	113	56	#line 113 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	114	56		mov __signed_stack_001searchspace, __D0searchspace
+10	113	58	#line 113 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	114	58		set __D0searchspace, 10
+10	113	61	#line 113 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	114	61		cmp 3, __D0searchspace, __signed_stack_001searchspace, __D0searchspace
+10	114	65	#line 114 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	115	65		brtst 4, __ASM_Label_658, __D0searchspace
+10	114	68	#line 114 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	115	68		set __signed_stack_001searchspace, 0
+10	114	71	#line 114 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	114	71	#line 114 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	115	71		set __signed_stack_002searchspace, 56
+10	114	74	#line 114 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	114	74	#line 114 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	115	74		mov __signed_stack_003searchspace, parkingSpace
+10	114	76	#line 114 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	114	76	#line 114 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	115	76		set __D0searchspace, 0
+10	115	79	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	79		acquire __TextOutMutex
+10	115	80	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	80		mov __TextOutArgs.Location.X, __signed_stack_001searchspace
+10	115	82	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	82		mov __TextOutArgs.Location.Y, __signed_stack_002searchspace
+10	115	84	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	84		mov __TextOutArgs.Options, __D0searchspace
+10	115	87	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	87		numtostr __TextOutArgs.Text, __signed_stack_003searchspace
+10	115	90	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	90		syscall 13, __TextOutArgs
+10	115	93	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	93		mov __D0searchspace, __TextOutArgs.Result
+10	115	96	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	96		release __TextOutMutex
+10	115	97	#line 115 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	97	#line 116 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	117	97		jmp __ASM_Label_657
+10	116	99	#line 116 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	99	#line 116 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	117	99		mov __signed_stack_001searchspace, parkingSpace
+10	116	101	#line 116 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	116	101	#line 116 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	117	101		mov __DF0searchspace, __constVal630
+10	116	103	#line 116 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	117	103		cmp 1, __D0searchspace, __signed_stack_001searchspace, __DF0searchspace
+10	117	107	#line 117 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	118	107		brtst 4, __ASM_Label_671, __D0searchspace
+10	118	110	#line 118 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	119	110		set searching, 0
+10	118	113	#line 118 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	118	113	#line 118 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	118	113	#line 118 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	119	113		mov __Rev_7qG2_t_7qG2_000, parkingSpace
+10	118	115	#line 118 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	119	115	#line 119 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	120	115		subcall Rev, __Rev_return
+10	119	117	#line 119 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	120	117	#line 120 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	121	117		exitto exiting
+10	120	119	#line 120 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	122	119	#line 122 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	122	119	#line 122 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	122	119	#line 122 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	123	119		set __Wait_7qG2_ms_7qG2_000_inline_searchspace, 50
+10	122	122	#line 122 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	8551	122	#line 8551 "NXCDefs.h"
+10	8552	122		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_searchspace
+10	8551	125	#line 8551 "NXCDefs.h"
+10	124	125	#line 124 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	127	125	#line 127 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	128	125		jmp __ASM_Label_648
+10	127	127	#line 127 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+10	128	127		exit -1, -1
+11	136	0	#line 136 "C:\Users\zihbo\Desktop\nxc\parking.nxc"
+11	137	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\zihbo\Desktop\nxc\parking.nxc
+1	__RotateMotor0	77	NXTDefs.h
+2	__RotateMotor2	246	NXTDefs.h
+3	__ResetSensorSubroutine	415	NXTDefs.h
+4	__ReadLSBytes0	428	NXTDefs.h
+5	move	514	C:\Users\zihbo\Desktop\nxc\parking.nxc
+6	checksensor	573	C:\Users\zihbo\Desktop\nxc\parking.nxc
+7	parking	1005	C:\Users\zihbo\Desktop\nxc\parking.nxc
+8	Rev	1112	C:\Users\zihbo\Desktop\nxc\parking.nxc
+9	exiting	1270	C:\Users\zihbo\Desktop\nxc\parking.nxc
+10	searchspace	1320	C:\Users\zihbo\Desktop\nxc\parking.nxc
+11	__initialize_global_data	1450	C:\Users\zihbo\Desktop\nxc\parking.nxc

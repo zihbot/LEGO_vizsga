@@ -1,0 +1,482 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001exit	6	1	0	4	2
+1	__signed_stack_001labirinth	6	1	4	4	22
+2	__unsigned_stack_001labirinth	5	1	8	4	6
+3	__D0labirinth	6	1	12	4	64
+4	__D0Left	6	1	16	4	8
+5	__D0Right	6	1	20	4	8
+6	__signed_stack_001Left	6	1	24	4	2
+7	__Wait_7qG2_ms_7qG2_000_inline_Right	5	1	28	4	2
+8	__Wait_7qG2_ms_7qG2_000_inline_labirinth	5	1	32	4	6
+9	__Wait_7qG2_ms_7qG2_000_inline_exit	5	1	36	4	2
+10	__signed_stack_001Right	6	1	40	4	2
+11	semaphor	9	0	44	4	6
+12	__Wait_7qG2_ms_7qG2_000_inline_Left	5	1	48	4	2
+13	__OnRevMutex	9	0	52	4	2
+14	__D0exit	6	1	56	4	10
+15	__labirinth_7qG2_j_7qG2_001	4	1	60	2	9
+16	__Left_7qG2_j_7qG2_000	4	1	62	2	4
+17	__labirinth_7qG2_k_7qG2_001	4	1	64	2	4
+18	__Left_7qG2_i_7qG2_001	4	1	66	2	4
+19	__Right_7qG2_i_7qG2_001	4	1	68	2	4
+20	__Right_7qG2_j_7qG2_000	4	1	70	2	2
+21	__Right_return	1	1	72	1	3
+22	__constValNeg41	2	0	73	1	1
+23	____initialize_global_data_return	1	1	74	1	3
+24	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	75	1	4
+25	__constValNeg30	2	0	76	1	1
+26	__labirinth_7qG2_tr_7qG2_001	1	1	77	1	3
+27	__labirinth_7qG2_tp_7qG2_001	1	1	78	1	5
+28	__OnRev_Tmp	2	1	79	1	2
+29	__ResetSensorTmp	1	1	80	1	2
+30	__ResetSensorPort	1	1	81	1	3
+31	__constVal3	2	0	82	1	8
+32	__constVal13	2	0	83	1	1
+33	__constVal2	2	0	84	1	2
+34	____ResetSensorSubroutine_return	1	1	85	1	3
+35	__constVal0	2	1	86	1	27
+36	__constVal63	2	0	87	1	8
+37	__constValNeg20	2	0	88	1	3
+38	__constVal32	2	0	89	1	24
+39	__Left_return	1	1	90	1	5
+40	__constVal1	2	0	91	1	14
+41	__constVal96	2	0	92	1	8
+42	__OUT_AC	7	0	94	4	4
+43	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	77	0	#line 77 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+0	78	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	77	2	#line 77 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+0	77	2	#line 77 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+0	78	2		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	77	5	#line 77 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+0	4386	5	#line 4386 "NXCDefs.h"
+0	4387	5	#pragma macro 6
+0	4387	5		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	4387	9		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	4387	13		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	4387	15		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7107	17	#line 7107 "NXCDefs.h"
+0	4386	17	#line 4386 "NXCDefs.h"
+0	78	17	#line 78 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+0	79	17	#line 79 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+0	79	17	#line 79 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+0	80	17		exit 0, 1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	10	0	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	11	0		set __Left_7qG2_i_7qG2_001, 0
+2	10	3	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	10	3	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	11	3		mov __signed_stack_001Left, __Left_7qG2_i_7qG2_001
+2	10	5	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	10	5	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	11	5		mov __D0Left, __Left_7qG2_j_7qG2_000
+2	10	7	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	11	7		cmp 2, __D0Left, __signed_stack_001Left, __D0Left
+2	10	11	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	11	11		brtst 4, __ASM_Label_609, __D0Left
+2	10	14	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	11	14		jmp __ASM_Label_610
+2	10	16	#line 10 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	11	16		add __Left_7qG2_i_7qG2_001, __Left_7qG2_i_7qG2_001, __constVal1
+2	11	20	#line 11 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	12	20		jmp __ASM_Label_608
+2	11	22	#line 11 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	12	22		set __D0Left, 20
+2	12	25	#line 12 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	13	25	#pragma macro 7
+2	13	25		setout __constVal0, 2, __D0Left, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6560	48	#line 6560 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	12	48	#line 12 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	12	48	#line 12 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	13	48		mov __D0Left, __constValNeg20
+2	13	50	#line 13 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	14	50	#pragma macro 7
+2	14	50		setout __constVal2, 2, __D0Left, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	6565	73	#line 6565 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	13	73	#line 13 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	13	73	#line 13 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	14	73		set __Wait_7qG2_ms_7qG2_000_inline_Left, 50
+2	13	76	#line 13 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	8551	76	#line 8551 "NXCDefs.h"
+2	8552	76		waitv __Wait_7qG2_ms_7qG2_000_inline_Left
+2	8551	78	#line 8551 "NXCDefs.h"
+2	14	78	#line 14 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	16	78	#line 16 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	17	78		jmp __ASM_Label_611
+2	16	80	#line 16 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	16	80	#line 16 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+2	17	80		subret __Left_return
+3	17	0	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	18	0		set __Right_7qG2_i_7qG2_001, 0
+3	17	3	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	17	3	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	18	3		mov __signed_stack_001Right, __Right_7qG2_i_7qG2_001
+3	17	5	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	17	5	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	18	5		mov __D0Right, __Right_7qG2_j_7qG2_000
+3	17	7	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	18	7		cmp 2, __D0Right, __signed_stack_001Right, __D0Right
+3	17	11	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	18	11		brtst 4, __ASM_Label_623, __D0Right
+3	17	14	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	18	14		jmp __ASM_Label_624
+3	17	16	#line 17 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	18	16		add __Right_7qG2_i_7qG2_001, __Right_7qG2_i_7qG2_001, __constVal1
+3	18	20	#line 18 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	19	20		jmp __ASM_Label_622
+3	18	22	#line 18 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	19	22		mov __D0Right, __constValNeg20
+3	19	24	#line 19 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	20	24	#pragma macro 7
+3	20	24		setout __constVal0, 2, __D0Right, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	6626	47	#line 6626 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	19	47	#line 19 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	19	47	#line 19 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	20	47		set __D0Right, 20
+3	20	50	#line 20 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	21	50	#pragma macro 7
+3	21	50		setout __constVal2, 2, __D0Right, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	6631	73	#line 6631 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	20	73	#line 20 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	20	73	#line 20 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	21	73		set __Wait_7qG2_ms_7qG2_000_inline_Right, 50
+3	20	76	#line 20 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	8551	76	#line 8551 "NXCDefs.h"
+3	8552	76		waitv __Wait_7qG2_ms_7qG2_000_inline_Right
+3	8551	78	#line 8551 "NXCDefs.h"
+3	21	78	#line 21 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	25	78	#line 25 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	26	78		jmp __ASM_Label_625
+3	25	80	#line 25 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	25	80	#line 25 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+3	26	80		subret __Right_return
+4	26	0	#line 26 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	27	0		set __D0labirinth, 1
+4	27	3	#line 27 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	28	3		tst 5, __D0labirinth, __D0labirinth
+4	27	6	#line 27 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	28	6		brtst 4, __ASM_Label_637, __D0labirinth
+4	28	9	#line 28 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	28	9	#line 28 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	29	9	#line 29 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	30	9		set __labirinth_7qG2_tr_7qG2_001, 0
+4	29	12	#line 29 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	31	12	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	12		set __labirinth_7qG2_tp_7qG2_001, 0
+4	31	15	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	31	15	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	15		set __labirinth_7qG2_k_7qG2_001, 0
+4	31	18	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	31	18	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	18		getin __signed_stack_001labirinth, __constVal1, 4
+4	31	22	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	31	22	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	22		set __D0labirinth, 3
+4	31	25	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	25		cmp 5, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	31	29	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	29		brtst 4, __ASM_Label_653, __D0labirinth
+4	31	32	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	32		mov __signed_stack_001labirinth, __labirinth_7qG2_k_7qG2_001
+4	31	34	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	31	34	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	34		set __D0labirinth, 5
+4	31	37	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	37		cmp 2, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	31	41	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	41		brtst 4, __ASM_Label_653, __D0labirinth
+4	31	44	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	44		mov __unsigned_stack_001labirinth, __labirinth_7qG2_tp_7qG2_001
+4	31	46	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	31	46	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	46		set __D0labirinth, 0
+4	31	49	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	49		cmp 4, __D0labirinth, __unsigned_stack_001labirinth, __D0labirinth
+4	31	53	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	53		brtst 4, __ASM_Label_647, __D0labirinth
+4	31	56	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	56		jmp __ASM_Label_648
+4	31	58	#line 31 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	32	58		add __labirinth_7qG2_k_7qG2_001, __labirinth_7qG2_k_7qG2_001, __constVal1
+4	32	62	#line 32 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	33	62		jmp __ASM_Label_646
+4	33	64	#line 33 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	34	64		acquire semaphor
+4	33	65	#line 33 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	33	65	#line 33 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	34	65		mov __D0labirinth, __constValNeg20
+4	34	67	#line 34 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	35	67	#pragma macro 7
+4	35	67		setout __OUT_AC, 2, __D0labirinth, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6754	90	#line 6754 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	34	90	#line 34 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	34	90	#line 34 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	35	90		set __Wait_7qG2_ms_7qG2_000_inline_labirinth, 100
+4	34	93	#line 34 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	8551	93	#line 8551 "NXCDefs.h"
+4	8552	93		waitv __Wait_7qG2_ms_7qG2_000_inline_labirinth
+4	8551	95	#line 8551 "NXCDefs.h"
+4	35	95	#line 35 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	35	95	#line 35 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	36	95		getin __signed_stack_001labirinth, __constVal1, 4
+4	35	99	#line 35 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	35	99	#line 35 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	36	99		set __D0labirinth, 3
+4	35	102	#line 35 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	36	102		cmp 4, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	36	106	#line 36 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	37	106		brtst 4, __ASM_Label_660, __D0labirinth
+4	36	109	#line 36 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	37	109		set __D0labirinth, 30
+4	37	112	#line 37 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	38	112	#pragma macro 7
+4	38	112		setout __OUT_AC, 2, __D0labirinth, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	6785	135	#line 6785 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	37	135	#line 37 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	37	135	#line 37 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	38	135		set __Wait_7qG2_ms_7qG2_000_inline_labirinth, 200
+4	37	138	#line 37 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	8551	138	#line 8551 "NXCDefs.h"
+4	8552	138		waitv __Wait_7qG2_ms_7qG2_000_inline_labirinth
+4	8551	140	#line 8551 "NXCDefs.h"
+4	38	140	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	38	140	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	140		set __labirinth_7qG2_j_7qG2_001, 0
+4	38	143	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	38	143	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	143		getin __signed_stack_001labirinth, __constVal1, 4
+4	38	147	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	38	147	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	147		set __D0labirinth, 3
+4	38	150	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	150		cmp 5, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	38	154	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	154		brtst 4, __ASM_Label_672, __D0labirinth
+4	38	157	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	157		mov __signed_stack_001labirinth, __labirinth_7qG2_j_7qG2_001
+4	38	159	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	38	159	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	159		set __D0labirinth, 4
+4	38	162	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	162		cmp 2, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	38	166	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	166		brtst 4, __ASM_Label_672, __D0labirinth
+4	38	169	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	169		mov __unsigned_stack_001labirinth, __labirinth_7qG2_tr_7qG2_001
+4	38	171	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	38	171	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	171		set __D0labirinth, 0
+4	38	174	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	174		cmp 4, __D0labirinth, __unsigned_stack_001labirinth, __D0labirinth
+4	38	178	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	178		brtst 4, __ASM_Label_666, __D0labirinth
+4	38	181	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	181		jmp __ASM_Label_667
+4	38	183	#line 38 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	39	183		add __labirinth_7qG2_j_7qG2_001, __labirinth_7qG2_j_7qG2_001, __constVal1
+4	39	187	#line 39 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	40	187		jmp __ASM_Label_665
+4	39	189	#line 39 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	40	189		set __Left_7qG2_j_7qG2_000, 1
+4	39	192	#line 39 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	40	192	#line 40 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	41	192		subcall Left, __Left_return
+4	40	194	#line 40 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	40	194	#line 40 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	41	194		getin __signed_stack_001labirinth, __constVal1, 4
+4	40	198	#line 40 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	40	198	#line 40 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	41	198		set __D0labirinth, 3
+4	40	201	#line 40 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	41	201		cmp 4, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	41	205	#line 41 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	42	205		brtst 4, __ASM_Label_677, __D0labirinth
+4	41	208	#line 41 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	42	208		mov __D0labirinth, __constValNeg30
+4	42	210	#line 42 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	43	210	#pragma macro 10
+4	43	210		acquire __OnRevMutex
+4	43	211		neg __OnRev_Tmp, __D0labirinth
+4	43	214		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	43	237		release __OnRevMutex
+4	6870	238	#line 6870 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	42	238	#line 42 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	42	238	#line 42 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	43	238		set __Wait_7qG2_ms_7qG2_000_inline_labirinth, 300
+4	42	241	#line 42 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	8551	241	#line 8551 "NXCDefs.h"
+4	8552	241		waitv __Wait_7qG2_ms_7qG2_000_inline_labirinth
+4	8551	243	#line 8551 "NXCDefs.h"
+4	43	243	#line 43 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	43	243	#line 43 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	44	243		getin __signed_stack_001labirinth, __constVal1, 4
+4	43	247	#line 43 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	44	247	#line 44 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	45	247		set __D0labirinth, 3
+4	44	250	#line 44 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	45	250		cmp 4, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	44	254	#line 44 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	45	254		brtst 4, __ASM_Label_684, __D0labirinth
+4	44	257	#line 44 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	45	257		set __Left_7qG2_j_7qG2_000, 1
+4	44	260	#line 44 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	45	260	#line 45 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	46	260		subcall Left, __Left_return
+4	45	262	#line 45 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	45	262	#line 45 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	46	262	#line 46 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	47	262		set __labirinth_7qG2_tr_7qG2_001, 1
+4	46	265	#line 46 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	46	265	#line 46 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	48	265	#line 48 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	48	265	#line 48 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	49	265		jmp __ASM_Label_668
+4	48	267	#line 48 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	49	267	#line 49 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	50	267		set __labirinth_7qG2_tp_7qG2_001, 1
+4	49	270	#line 49 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	49	270	#line 49 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	50	270	#line 50 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	51	270	#line 51 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	52	270		release semaphor
+4	51	271	#line 51 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	53	271	#line 53 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	54	271		jmp __ASM_Label_649
+4	53	273	#line 53 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	54	273	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	273		acquire semaphor
+4	54	274	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	54	274	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	274		set __labirinth_7qG2_j_7qG2_001, 0
+4	54	277	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	54	277	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	277		getin __signed_stack_001labirinth, __constVal1, 4
+4	54	281	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	54	281	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	281		set __D0labirinth, 3
+4	54	284	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	284		cmp 5, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	54	288	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	288		brtst 4, __ASM_Label_698, __D0labirinth
+4	54	291	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	291		mov __signed_stack_001labirinth, __labirinth_7qG2_j_7qG2_001
+4	54	293	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	54	293	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	293		set __D0labirinth, 4
+4	54	296	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	296		cmp 2, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	54	300	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	300		brtst 4, __ASM_Label_698, __D0labirinth
+4	54	303	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	303		mov __unsigned_stack_001labirinth, __labirinth_7qG2_tp_7qG2_001
+4	54	305	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	54	305	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	305		set __D0labirinth, 0
+4	54	308	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	308		cmp 4, __D0labirinth, __unsigned_stack_001labirinth, __D0labirinth
+4	54	312	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	312		brtst 4, __ASM_Label_692, __D0labirinth
+4	54	315	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	315		jmp __ASM_Label_693
+4	54	317	#line 54 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	55	317		add __labirinth_7qG2_j_7qG2_001, __labirinth_7qG2_j_7qG2_001, __constVal1
+4	55	321	#line 55 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	56	321		jmp __ASM_Label_691
+4	55	323	#line 55 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	56	323		set __Right_7qG2_j_7qG2_000, 1
+4	55	326	#line 55 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	56	326	#line 56 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	57	326		subcall Right, __Right_return
+4	56	328	#line 56 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	56	328	#line 56 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	57	328		getin __signed_stack_001labirinth, __constVal1, 4
+4	56	332	#line 56 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	56	332	#line 56 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	57	332		set __D0labirinth, 3
+4	56	335	#line 56 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	57	335		cmp 4, __D0labirinth, __signed_stack_001labirinth, __D0labirinth
+4	57	339	#line 57 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	58	339		brtst 4, __ASM_Label_703, __D0labirinth
+4	57	342	#line 57 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	58	342		set __signed_stack_001labirinth, 2
+4	57	345	#line 57 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	57	345	#line 57 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	58	345		mov __D0labirinth, __labirinth_7qG2_j_7qG2_001
+4	57	347	#line 57 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	58	347		mul __Left_7qG2_j_7qG2_000, __signed_stack_001labirinth, __D0labirinth
+4	57	351	#line 57 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	58	351	#line 58 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	59	351		subcall Left, __Left_return
+4	58	353	#line 58 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	59	353	#line 59 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	60	353		set __labirinth_7qG2_tp_7qG2_001, 1
+4	59	356	#line 59 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	59	356	#line 59 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	61	356	#line 61 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	61	356	#line 61 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	62	356		jmp __ASM_Label_694
+4	61	358	#line 61 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	62	358	#line 62 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	63	358		release semaphor
+4	62	359	#line 62 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	65	359	#line 65 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	66	359		jmp __ASM_Label_636
+4	65	361	#line 65 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+4	66	361		exit -1, -1
+5	67	0	#line 67 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	68	0		set __D0exit, 1
+5	67	3	#line 67 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	68	3		tst 5, __D0exit, __D0exit
+5	67	6	#line 67 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	68	6		brtst 4, __ASM_Label_709, __D0exit
+5	67	9	#line 67 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	68	9		getin __signed_stack_001exit, __constVal1, 4
+5	67	13	#line 67 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	67	13	#line 67 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	68	13		set __D0exit, 4
+5	67	16	#line 67 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	68	16		cmp 4, __D0exit, __signed_stack_001exit, __D0exit
+5	68	20	#line 68 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	69	20		brtst 4, __ASM_Label_714, __D0exit
+5	69	23	#line 69 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	70	23		acquire semaphor
+5	69	24	#line 69 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	69	24	#line 69 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	70	24		mov __D0exit, __constValNeg41
+5	70	26	#line 70 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	71	26	#pragma macro 7
+5	71	26		setout __OUT_AC, 2, __D0exit, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	7068	49	#line 7068 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	70	49	#line 70 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	70	49	#line 70 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	71	49		set __Wait_7qG2_ms_7qG2_000_inline_exit, 2000
+5	70	52	#line 70 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	8551	52	#line 8551 "NXCDefs.h"
+5	8552	52		waitv __Wait_7qG2_ms_7qG2_000_inline_exit
+5	8551	54	#line 8551 "NXCDefs.h"
+5	71	54	#line 71 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	72	54	#line 72 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	73	54		release semaphor
+5	72	55	#line 72 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	76	55	#line 76 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	76	55	#line 76 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	77	55		jmp __ASM_Label_708
+5	76	57	#line 76 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+5	77	57		exit -1, -1
+6	82	0	#line 82 "C:\Users\zihbo\AppData\Local\Temp\temp.nxc"
+6	83	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\zihbo\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	20	NXTDefs.h
+2	Left	33	C:\Users\zihbo\AppData\Local\Temp\temp.nxc
+3	Right	115	C:\Users\zihbo\AppData\Local\Temp\temp.nxc
+4	labirinth	197	C:\Users\zihbo\AppData\Local\Temp\temp.nxc
+5	exit	561	C:\Users\zihbo\AppData\Local\Temp\temp.nxc
+6	__initialize_global_data	621	C:\Users\zihbo\AppData\Local\Temp\temp.nxc

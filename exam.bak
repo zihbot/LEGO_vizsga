@@ -1,0 +1,253 @@
+
+mutex semaphor;
+int parkingSpace = 0;
+bool searching = true;
+bool check = false;
+
+#define BLACK 1
+#define BLUE 2
+#define GREEN 3
+#define YELLOW 4
+
+#define WALL 10
+#define PARKINGWALLD 5
+#define BOXDISTANCE 20
+#define PARKINGWAITTIME 5000
+#define LINE BLACK
+#define CROSS YELLOW
+#define LABLINE GREEN
+#define ENDLAB YELLOW
+
+task checksensor(){
+while(searching){
+int a = 2;
+int j;
+if(Sensor(IN_2) != LINE){
+while(Sensor(IN_2) != LINE){
+Acquire(semaphor);
+if(Sensor(IN_2) == CROSS){
+    ResetTachoCount(OUT_AC);
+    OnFwd(OUT_AC, -25);
+    Wait(500);
+    parkingSpace+=MotorTachoCount(OUT_A);
+} else {
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(70);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, 20);
+          OnFwd(OUT_C, -20);
+          Wait(70);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_C, -20);
+          OnFwd(OUT_A, 20);
+          Wait(70);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(70);
+    }
+    a++;
+}
+Release(semaphor);
+}
+}
+}
+}
+
+task move(){
+start checksensor;
+while(searching){
+    Acquire(semaphor);
+    if(Sensor(IN_2)==LINE){
+        ResetTachoCount(OUT_AC);
+        OnFwd(OUT_AC, -40);
+        Wait(100);
+        parkingSpace -= MotorTachoCount(OUT_A);
+    }
+    Release(semaphor);
+}
+}
+
+task moveAfterBox(){
+start checksensor;
+int v;
+while(true){
+    Acquire(semaphor);
+    if(Sensor(IN_2)==LINE){
+        v = 3*(SensorUS(IN_3)-BOXDISTANCE);
+        //NumOut(0, LCD_LINE1, SensorUS(IN_3), FALSE);
+        if(v<0){ v=0; };
+        if(v>40){ v=40; };
+        OnFwd(OUT_AC, -v);
+        Wait(100);
+    }
+    Release(semaphor);
+}
+}
+
+sub Left(int j){
+    for(int i = 0; i <= j; i++){
+    OnFwd(OUT_A, 20);
+    OnFwd(OUT_C, -20);
+    Wait(50);
+    }
+}
+sub Right(int j){
+    for(int i = 0; i <= j; i++){
+    OnFwd(OUT_A, -20);
+    OnFwd(OUT_C, 20);
+    Wait(50);
+    }
+}
+
+sub parking(){
+    RotateMotor(OUT_C, -30, 95);
+    RotateMotor(OUT_A, -30, -95);
+    while(Sensor(IN_4)!=1){
+        OnRev(OUT_AC, -30);
+        /*if(SensorUS(IN_1) < PARKINGWALLD){
+            OnRev(OUT_A, -40);
+        } else if(SensorUS(IN_1) > PARKINGWALLD){
+            OnRev(OUT_C, -40);
+        }      */
+        Wait(50);
+    }
+    OnFwd(OUT_AC, 0);
+    Wait(PARKINGWAITTIME);
+}
+
+sub Rev(int t){
+    ResetTachoCount(OUT_AC);
+    int avg;
+    NumOut(0, LCD_LINE3, t/2, FALSE);
+    do {
+        ResetTachoCount(OUT_AC);
+        NumOut(0, LCD_LINE2, avg, FALSE);
+        OnRev(OUT_AC, -40);
+        Wait(50);
+        avg += (MotorTachoCount(OUT_A)+MotorTachoCount(OUT_C))/2;
+    } while(avg<=t/3);
+    parking();
+}
+
+task exiting(){
+     while(Sensor(IN_2) != LINE){
+        OnFwd(OUT_AC, -40);
+        Wait(100);
+     }
+     OnFwd(OUT_AC, -40);
+     Wait(500);
+     while(Sensor(IN_2)!=LINE)
+         Right(1);
+     searching = true;
+     ExitTo(moveAfterBox);
+}
+
+task searchspace(){
+while(true){
+   parkingSpace = 0;
+   if(SensorUS(IN_1) >= WALL){
+      while(SensorUS(IN_1) >= WALL){
+          //NumOut(0, LCD_LINE1, parkingSpace, FALSE);
+      }
+      if(parkingSpace > 25*25.2){
+          searching = false;
+          Rev(parkingSpace);
+          ExitTo(exiting);
+      }
+   }
+   Wait(50);
+
+}
+}
+
+task lab(){
+                //jobbra tart, ha falat talal tolat es balra fordul.
+        int a=0;
+        while(Sensor(IN_2)!=ENDLAB){
+            if(a<6){
+            OnFwd(OUT_A, -35);    //bal kerek gyorsabb a jobbnál, jobbra tart a kocsi
+            OnFwd(OUT_C, -20);
+            Wait(200);
+            }
+            else{
+            OnFwd(OUT_A, -30);    //bal kerek gyorsabb a jobbnál, jobbra tart a kocsi
+            OnFwd(OUT_C, 0);
+            Wait(50);
+            }
+            if(Sensor(IN_2)==LABLINE){
+               OnFwd(OUT_AC, 40);    //kicsit hatramegy
+               Wait(100);
+               for(int i=0; i<5 && Sensor(IN_2)!=LABLINE; i++)  {
+                       OnFwd(OUT_AC, 40);    //kicsit hatramegy
+                       Wait(50);
+               }
+               OnFwd(OUT_A, 40);  //   Balra fordul
+               OnFwd(OUT_C, -40);  //       picit, elojelek nem biztos, hogy stimmelnek
+               Wait(150);
+               for(int i=0; i<3 && Sensor(IN_2)!=LABLINE; i++)  {
+                       OnFwd(OUT_A, 40);  //   Balra fordul
+                       OnFwd(OUT_C, -40);  //       picit, elojelek nem biztos, hogy stimmelnek
+                       Wait(50);
+               }
+               if(Sensor(IN_2)==LABLINE) {
+                        //OnFwd(OUT_AC, 40);    //kicsit hatramegy
+                        //Wait(300);
+                         OnFwd(OUT_AC, 40);    //kicsit hatramegy
+                         Wait(100);
+                         for(int i=0; i<5 && Sensor(IN_2)!=LABLINE; i++)  {
+                         OnFwd(OUT_AC, 40);    //kicsit hatramegy
+                         Wait(50);
+                         }
+               }
+               a=0;
+
+            }
+            else
+                a++;
+        }
+        OnFwd(OUT_AC, -40);
+        Wait(800);
+        Release(semaphor);
+        ExitTo(searchspace);
+}
+
+task searchMaze(){
+   parkingSpace = 0;
+   while(true){
+       if(Sensor(IN_2)==LABLINE){
+           NumOut(0, LCD_LINE1, parkingSpace/25.2, FALSE);
+           Acquire(semaphor);
+           OnFwd(OUT_AC, -60);
+           Wait(200);
+           ExitTo(lab);
+       }
+       Wait(50);
+   }
+}
+
+
+task main(){
+   SetSensorTouch(IN_4);
+   SetSensorLowspeed(IN_1);
+   SetSensorLowspeed(IN_3);
+   SetSensorColorFull(IN_2);
+   Precedes(searchMaze, move);
+   
+}
+
+
+

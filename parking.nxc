@@ -1,0 +1,116 @@
+
+mutex semaphor;
+#define WALL 40
+task move(){
+while(true){
+    Acquire(semaphor);
+    OnFwd(OUT_AC, -20);
+    Wait(100);
+    Release(semaphor);
+}
+}
+
+#define LINE 1
+#define CROSS 4
+
+task checksensor(){
+while(true){
+int a = 2;
+int j;
+if(Sensor(IN_2) != LINE){
+Acquire(semaphor);
+while(Sensor(IN_2) != LINE){
+if(Sensor(IN_2) == CROSS){
+    OnFwd(OUT_AC, -25);
+    Wait(500);
+} else {
+
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(100);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, 20);
+          OnFwd(OUT_C, -20);
+          Wait(100);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_C, -20);
+          OnFwd(OUT_A, 20);
+          Wait(100);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(100);
+    }
+    a++;
+}
+}
+Release(semaphor);
+}
+}
+}
+
+
+
+sub Left(int j){
+    for(int i = 0; i <= j; i++){
+    OnFwd(OUT_A, 20);
+    OnFwd(OUT_C, -20);
+    Wait(50);
+    }
+}
+sub Right(int j){
+    for(int i = 0; i <= j; i++){
+    OnFwd(OUT_A, -20);
+    OnFwd(OUT_C, 20);
+    Wait(50);
+    }
+}
+
+sub Rev(int t){
+    Acquire(semaphor);
+    ResetTachoCount(OUT_AC);
+    while(-MotorTachoCount(OUT_A)<t/2){
+        OnRev(OUT_AC, -40);
+        Wait(50);
+    }
+    Release(semaphor);
+}
+task searchspace(){
+int t = 0;
+while(true){
+
+   if(SensorUS(IN_1) >= WALL){
+      ResetTachoCount(OUT_AC);
+      while(SensorUS(IN_1) >= WALL){
+          t= -MotorTachoCount(OUT_A);
+          NumOut(0, LCD_LINE1, t, false);
+      }
+      if(t > 30*25,2){
+          Rev(t);
+      }
+   }
+
+
+}
+}
+
+task main(){
+   SetSensorTouch(IN_4);
+   SetSensorLowspeed(IN_1);
+   SetSensorColorFull(IN_2);
+   Precedes(searchspace, move, checksensor);
+}
+
+

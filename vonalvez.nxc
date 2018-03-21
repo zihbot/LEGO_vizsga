@@ -1,0 +1,78 @@
+mutex semaphor;
+int counter = 0;
+task move(){
+while(true){
+    Acquire(semaphor);
+    ResetTachoCount(OUT_AC);
+    OnFwd(OUT_AC, -20);
+    Wait(100);
+    counter+=MotorTachoCount(OUT_A);
+    Release(semaphor);
+}
+}
+
+task countLine(){
+    while(true){
+        NumOut(0, LCD_LINE1, -counter/25, FALSE);
+        Wait(100);
+    }
+}
+
+#define LINE 3
+#define CROSS 4
+
+task checksensor(){
+while(true){
+int a = 2;
+int j;
+if(Sensor(IN_2) != LINE){
+Acquire(semaphor);
+while(Sensor(IN_2) != LINE){
+if(Sensor(IN_2) == CROSS){
+    ResetTachoCount(OUT_AC);
+    OnFwd(OUT_AC, -25);
+    Wait(500);
+    counter+=MotorTachoCount(OUT_A);
+} else {
+
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(100);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, 20);
+          OnFwd(OUT_C, -20);
+          Wait(100);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_C, -20);
+          OnFwd(OUT_A, 20);
+          Wait(100);
+    }
+    for(j = 0; Sensor(IN_2) != LINE && j <= a; j++){
+          if(Sensor(IN_2) == CROSS)
+              break;
+          OnFwd(OUT_A, -20);
+          OnFwd(OUT_C, 20);
+          Wait(100);
+    }
+    a++;
+}
+}
+Release(semaphor);
+}
+}
+}
+
+task main(){
+SetSensorColorFull(IN_2);
+Precedes(move, checksensor, countLine);
+
+}
